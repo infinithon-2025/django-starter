@@ -2,6 +2,8 @@ from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 from drf_spectacular.utils import extend_schema, extend_schema_view, OpenApiParameter
 import json
 import os
@@ -109,6 +111,7 @@ def find_matching_external_data_by_code(project):
     update=extend_schema(description="프로젝트 정보를 수정합니다.", tags=["프로젝트 관리"]),
     destroy=extend_schema(description="프로젝트를 삭제합니다.", tags=["프로젝트 관리"]),
 )
+@method_decorator(csrf_exempt, name='dispatch')
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
@@ -362,6 +365,7 @@ class ProjectViewSet(viewsets.ModelViewSet):
     update=extend_schema(description="프로젝트 자료 정보를 수정합니다.", tags=["자료 관리"]),
     destroy=extend_schema(description="프로젝트 자료를 삭제합니다.", tags=["자료 관리"]),
 )
+@method_decorator(csrf_exempt, name='dispatch')
 class ProjectMaterialViewSet(viewsets.ModelViewSet):
     queryset = ProjectMaterial.objects.all()
     serializer_class = ProjectMaterialSerializer
@@ -392,6 +396,7 @@ class ProjectMaterialViewSet(viewsets.ModelViewSet):
     update=extend_schema(description="AI 요청 정보를 수정합니다.", tags=["AI 관리"]),
     destroy=extend_schema(description="AI 요청을 삭제합니다.", tags=["AI 관리"]),
 )
+@method_decorator(csrf_exempt, name='dispatch')
 class AIRequestViewSet(viewsets.ModelViewSet):
     queryset = AIRequest.objects.all()
     serializer_class = AIRequestSerializer
@@ -410,6 +415,7 @@ class AIRequestViewSet(viewsets.ModelViewSet):
     update=extend_schema(description="요약 정보를 수정합니다.", tags=["콘텐츠 관리"]),
     destroy=extend_schema(description="요약을 삭제합니다.", tags=["콘텐츠 관리"]),
 )
+@method_decorator(csrf_exempt, name='dispatch')
 class SummaryViewSet(viewsets.ModelViewSet):
     queryset = Summary.objects.all()
     serializer_class = SummarySerializer
@@ -437,6 +443,7 @@ class SummaryViewSet(viewsets.ModelViewSet):
     update=extend_schema(description="아이템 정보를 수정합니다.", tags=["콘텐츠 관리"]),
     destroy=extend_schema(description="아이템을 삭제합니다.", tags=["콘텐츠 관리"]),
 )
+@method_decorator(csrf_exempt, name='dispatch')
 class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
@@ -551,6 +558,7 @@ class ItemViewSet(viewsets.ModelViewSet):
     update=extend_schema(description="추천 정보를 수정합니다.", tags=["추천 관리"]),
     destroy=extend_schema(description="추천을 삭제합니다.", tags=["추천 관리"]),
 )
+@method_decorator(csrf_exempt, name='dispatch')
 class RecommendationViewSet(viewsets.ModelViewSet):
     queryset = Recommendation.objects.all()
     serializer_class = RecommendationSerializer
