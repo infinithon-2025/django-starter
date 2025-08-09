@@ -23,7 +23,7 @@ import google.generativeai as genai
 
 
 # 예제용 더미 키
-genai.configure(api_key="xxxxx-xxxxx")
+genai.configure(api_key="xxxx-xxxx")
 
 
 def load_external_data():
