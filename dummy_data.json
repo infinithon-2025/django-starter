@@ -118,5 +118,2415 @@
     "link": "https://sg-dev-community.slack.com/archives/C0123456791/p1234567890123460",
     "created_at": "2025-08-09T11:30:00Z",
     "updated_at": "2025-08-09T14:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "백엔드 API 명세 업데이트",
+    "body": "새로 추가된 사용자 정보 조회 API 명세를 업데이트했습니다. 프론트엔드 팀에서 참고하여 개발을 진행해주시기 바랍니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456792/p1234567890123459",
+    "created_at": "2025-08-10T09:00:00Z",
+    "updated_at": "2025-08-10T10:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "프론트엔드 배포 완료",
+    "body": "사용자 대시보드 UI 개선 사항이 포함된 프론트엔드 버전을 배포했습니다. QA팀은 테스트를 시작해주시면 감사하겠습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456793/p1234567890123460",
+    "created_at": "2025-08-10T11:20:00Z",
+    "updated_at": "2025-08-10T12:30:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "코드 리뷰 요청",
+    "body": "결제 모듈 리팩토링 PR을 올렸습니다. @팀원 여러분 코드 리뷰 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456794/p1234567890123461",
+    "created_at": "2025-08-11T10:45:00Z",
+    "updated_at": "2025-08-11T13:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "새로운 기능 구현 논의",
+    "body": "클라이언트 요청사항인 실시간 알림 기능 구현 방안에 대해 논의가 필요합니다. 오늘 오후 3시에 짧게 미팅 진행할까요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456795/p1234567890123462",
+    "created_at": "2025-08-11T14:00:00Z",
+    "updated_at": "2025-08-11T15:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "주간 스프린트 회고",
+    "body": "이번 주 스프린트에서 좋았던 점과 개선할 점에 대해 자유롭게 의견을 나눠주세요. 다음 스프린트 계획에 반영하겠습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456796/p1234567890123463",
+    "created_at": "2025-08-12T09:30:00Z",
+    "updated_at": "2025-08-12T10:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "버그 제보",
+    "body": "운영 환경에서 로그인이 정상적으로 되지 않는 버그가 발견되었습니다. 긴급하게 확인 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456797/p1234567890123464",
+    "created_at": "2025-08-12T15:00:00Z",
+    "updated_at": "2025-08-12T16:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "개발 환경 설정 가이드",
+    "body": "새로운 팀원들을 위해 개발 환경 설정 가이드를 문서화했습니다. 온보딩 시 활용해주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456798/p1234567890123465",
+    "created_at": "2025-08-13T10:00:00Z",
+    "updated_at": "2025-08-13T11:10:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "데이터베이스 마이그레이션",
+    "body": "다음 주에 예정된 데이터베이스 마이그레이션에 대한 일정을 공유합니다. 서비스 중단 시간을 최소화할 예정입니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456799/p1234567890123466",
+    "created_at": "2025-08-13T14:30:00Z",
+    "updated_at": "2025-08-13T15:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "클라우드 인프라 비용 절감 방안",
+    "body": "AWS 비용 최적화 방안에 대해 논의할 필요가 있습니다. 사용하지 않는 인스턴스 정리 및 예약 인스턴스 도입을 검토해봅시다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456800/p1234567890123467",
+    "created_at": "2025-08-14T11:00:00Z",
+    "updated_at": "2025-08-14T12:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "UI/UX 개선 피드백",
+    "body": "최근 업데이트된 UI에 대한 사용자 피드백을 수집했습니다. 개선 방향에 대해 논의해봅시다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456801/p1234567890123468",
+    "created_at": "2025-08-14T16:00:00Z",
+    "updated_at": "2025-08-14T17:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "새로운 라이브러리 도입 검토",
+    "body": "프론트엔드 상태 관리를 위해 Redux-Toolkit을 도입하는 것을 검토하고 있습니다. 의견 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456802/p1234567890123469",
+    "created_at": "2025-08-15T09:00:00Z",
+    "updated_at": "2025-08-15T10:30:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "성능 모니터링 대시보드",
+    "body": "New Relic을 이용한 성능 모니터링 대시보드를 공유합니다. 애플리케이션의 현재 상태를 실시간으로 확인할 수 있습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456803/p1234567890123470",
+    "created_at": "2025-08-15T11:45:00Z",
+    "updated_at": "2025-08-15T13:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "기술 스택 트렌드 조사",
+    "body": "최신 기술 스택 트렌드에 대해 조사하고 다음 주 스터디 시간에 발표할 사람을 찾습니다. 자원해주실 분 계신가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456804/p1234567890123471",
+    "created_at": "2025-08-16T10:30:00Z",
+    "updated_at": "2025-08-16T11:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "테스트 자동화 구축",
+    "body": "Selenium을 이용한 E2E(End-to-End) 테스트 자동화 시스템을 구축했습니다. 테스트 커버리지를 높일 수 있게 되었습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456805/p1234567890123472",
+    "created_at": "2025-08-16T14:20:00Z",
+    "updated_at": "2025-08-16T15:30:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "보안 패치 적용",
+    "body": "최근 발견된 서버 취약점에 대한 보안 패치를 적용했습니다. 모든 서비스에 정상적으로 반영되었는지 확인 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456806/p1234567890123473",
+    "created_at": "2025-08-17T09:15:00Z",
+    "updated_at": "2025-08-17T10:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "코드 컨벤션 정리",
+    "body": "새로운 코드 컨벤션 가이드라인을 작성했습니다. ESLint와 Prettier 설정을 업데이트하여 자동으로 적용할 수 있게 했습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456807/p1234567890123474",
+    "created_at": "2025-08-17T11:30:00Z",
+    "updated_at": "2025-08-17T12:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "클라이언트 미팅 결과 공유",
+    "body": "클라이언트 미팅에서 논의된 새로운 기능 추가 요구사항을 공유합니다. 대시보드 알림 기능과 푸시 알림 기능이 포함되어 있습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456808/p1234567890123475",
+    "created_at": "2025-08-18T10:00:00Z",
+    "updated_at": "2025-08-18T11:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "데이터 분석 대시보드 구축",
+    "body": "사용자 행동 패턴을 분석할 수 있는 대시보드를 구축했습니다. Amplitude를 사용하여 데이터를 시각화했습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456809/p1234567890123476",
+    "created_at": "2025-08-18T14:00:00Z",
+    "updated_at": "2025-08-18T15:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "주간 보고서 제출",
+    "body": "이번 주 진행 상황에 대한 주간 보고서를 제출했습니다. 문서 링크를 참고해주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456810/p1234567890123477",
+    "created_at": "2025-08-19T09:45:00Z",
+    "updated_at": "2025-08-19T10:50:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "마이크로서비스 도입 계획",
+    "body": "모놀리식 애플리케이션을 마이크로서비스 아키텍처로 전환하기 위한 로드맵을 공유합니다. 각 팀의 역할 분담에 대해 논의가 필요합니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456811/p1234567890123478",
+    "created_at": "2025-08-19T13:30:00Z",
+    "updated_at": "2025-08-19T14:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "CI/CD 파이프라인 개선 완료",
+    "body": "CI/CD 파이프라인에 정적 분석 도구(SonarQube)를 추가했습니다. 코드 품질을 자동으로 검사할 수 있게 되었습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456812/p1234567890123479",
+    "created_at": "2025-08-20T11:00:00Z",
+    "updated_at": "2025-08-20T12:10:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "서버 모니터링 알림 설정",
+    "body": "Prometheus와 Grafana를 사용하여 서버 모니터링 알림을 설정했습니다. CPU 사용량 임계치 초과 시 슬랙으로 알림이 오도록 했습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456813/p1234567890123480",
+    "created_at": "2025-08-20T14:30:00Z",
+    "updated_at": "2025-08-20T15:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "기술 부채 해결 논의",
+    "body": "장기적으로 해결해야 할 기술 부채에 대해 논의할 시간이 필요합니다. 이번 주 금요일 오후에 모여서 이야기해봅시다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456814/p1234567890123481",
+    "created_at": "2025-08-21T10:00:00Z",
+    "updated_at": "2025-08-21T11:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "사용자 매뉴얼 업데이트",
+    "body": "새로 추가된 기능에 대한 사용자 매뉴얼을 업데이트했습니다. 고객 지원 팀에서 참고해주시기 바랍니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456815/p1234567890123482",
+    "created_at": "2025-08-21T14:20:00Z",
+    "updated_at": "2025-08-21T15:30:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "새로운 기능 디자인 확정",
+    "body": "실시간 알림 기능에 대한 최종 디자인이 확정되었습니다. 디자인 시스템 컴포넌트를 활용하여 개발을 시작할 수 있습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456816/p1234567890123483",
+    "created_at": "2025-08-22T09:30:00Z",
+    "updated_at": "2025-08-22T10:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "클라이언트 요청사항 반영",
+    "body": "클라이언트의 긴급 요청으로 인해, 다음 주 릴리스에 긴급 버그 픽스를 포함해야 합니다. 관련 팀원들은 확인 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456817/p1234567890123484",
+    "created_at": "2025-08-22T14:00:00Z",
+    "updated_at": "2025-08-22T15:10:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "Docker 컨테이너 이미지 최적화",
+    "body": "Docker 이미지 크기를 줄여 배포 시간을 단축했습니다. 멀티스테이지 빌드를 적용하여 불필요한 의존성을 제거했습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456818/p1234567890123485",
+    "created_at": "2025-08-23T10:15:00Z",
+    "updated_at": "2025-08-23T11:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "프론트엔드 성능 개선",
+    "body": "웹팩(Webpack) 설정을 최적화하여 번들 크기를 줄였습니다. 첫 페이지 로딩 속도가 2초 단축되었습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456819/p1234567890123486",
+    "created_at": "2025-08-23T15:00:00Z",
+    "updated_at": "2025-08-23T16:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "새로운 기능 QA 시작",
+    "body": "실시간 알림 기능에 대한 QA 테스트를 시작합니다. 테스트 케이스는 Jira에 정리해두었습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456820/p1234567890123487",
+    "created_at": "2025-08-24T09:00:00Z",
+    "updated_at": "2025-08-24T10:10:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "백엔드 배포 준비",
+    "body": "다음 주에 배포될 백엔드 서버에 대한 최종 점검을 시작합니다. DB 스키마 변경 사항을 다시 한번 확인해주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456821/p1234567890123488",
+    "created_at": "2025-08-24T11:30:00Z",
+    "updated_at": "2025-08-24T12:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "기술 세미나 공유",
+    "body": "다음 주에 열리는 DevOps 기술 세미나에 참석할 팀원을 모집합니다. 관심 있는 분들은 댓글 남겨주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456822/p1234567890123489",
+    "created_at": "2025-08-25T10:00:00Z",
+    "updated_at": "2025-08-25T11:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "신규 팀원 온보딩",
+    "body": "새로운 백엔드 개발자 @신입개발자 님을 환영합니다! 온보딩 절차에 따라 필요한 자료들을 공유했습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456823/p1234567890123490",
+    "created_at": "2025-08-25T13:45:00Z",
+    "updated_at": "2025-08-25T14:50:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "서버 장애 보고",
+    "body": "새벽에 발생한 서버 장애에 대한 원인 분석 및 해결 방안을 보고서로 작성했습니다. 재발 방지 대책을 논의해야 합니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456824/p1234567890123491",
+    "created_at": "2025-08-26T09:30:00Z",
+    "updated_at": "2025-08-26T10:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "디자인 시스템 업데이트",
+    "body": "새로운 컬러 팔레트와 폰트 가이드라인이 추가된 디자인 시스템이 업데이트되었습니다. 프론트엔드 팀은 라이브러리를 업데이트해주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456825/p1234567890123492",
+    "created_at": "2025-08-26T14:00:00Z",
+    "updated_at": "2025-08-26T15:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "클라우드 서비스 변경 검토",
+    "body": "현재 AWS를 사용하고 있는데, GCP로 전환하는 것을 검토해볼 필요가 있습니다. 비용 및 성능을 비교 분석해봅시다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456826/p1234567890123493",
+    "created_at": "2025-08-27T11:00:00Z",
+    "updated_at": "2025-08-27T12:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "API 게이트웨이 도입 논의",
+    "body": "마이크로서비스 아키텍처 도입에 따라 API 게이트웨이를 도입해야 합니다. Kong 또는 Ocelot을 검토해봅시다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456827/p1234567890123494",
+    "created_at": "2025-08-27T15:30:00Z",
+    "updated_at": "2025-08-27T16:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "코드 스니펫 공유",
+    "body": "자주 사용되는 유틸리티 함수들을 정리해서 코드 스니펫으로 공유합니다. 개발 생산성 향상에 도움이 될 것입니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456828/p1234567890123495",
+    "created_at": "2025-08-28T10:00:00Z",
+    "updated_at": "2025-08-28T11:10:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "팀 회식 장소 투표",
+    "body": "이번 달 팀 회식 장소에 대한 투표를 진행합니다. 회식 장소 후보 3곳을 공유했으니 투표 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456829/p1234567890123496",
+    "created_at": "2025-08-28T14:20:00Z",
+    "updated_at": "2025-08-28T15:30:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "프로젝트 일정 변경",
+    "body": "실시간 알림 기능 개발이 지연되어 전체 프로젝트 일정을 조정해야 합니다. PM님과 논의 후 새로운 일정을 공유하겠습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456830/p1234567890123497",
+    "created_at": "2025-08-29T09:30:00Z",
+    "updated_at": "2025-08-29T10:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "DB 쿼리 최적화 완료",
+    "body": "사용자 목록 조회 쿼리를 최적화했습니다. 이제 10,000명의 사용자를 조회하는 데 100ms 이내의 응답 시간이 걸립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456831/p1234567890123498",
+    "created_at": "2025-08-29T11:00:00Z",
+    "updated_at": "2025-08-29T12:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "서버 리소스 확장 계획",
+    "body": "트래픽 증가에 대비하여 서버 리소스를 확장할 계획입니다. 로드밸런싱과 오토스케일링 설정을 검토하고 있습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456832/p1234567890123499",
+    "created_at": "2025-08-30T10:30:00Z",
+    "updated_at": "2025-08-30T11:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "개발 문화 개선 논의",
+    "body": "더 나은 개발 문화를 만들기 위해 팀원들의 의견을 듣고 싶습니다. 익명 설문지를 공유했으니 많은 참여 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456833/p1234567890123500",
+    "created_at": "2025-08-30T14:00:00Z",
+    "updated_at": "2025-08-30T15:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "새로운 기능 최종 데모",
+    "body": "실시간 알림 기능에 대한 최종 데모를 진행하겠습니다. 관련 팀원들은 30분 뒤 회의실로 모여주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456834/p1234567890123501",
+    "created_at": "2025-08-31T09:00:00Z",
+    "updated_at": "2025-08-31T10:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "기술 블로그 포스팅",
+    "body": "이번에 도입한 마이크로서비스 아키텍처에 대한 기술 블로그 포스팅 초안을 작성했습니다. 피드백 부탁드립니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456835/p1234567890123502",
+    "created_at": "2025-08-31T14:30:00Z",
+    "updated_at": "2025-08-31T15:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "다음 분기 목표 설정",
+    "body": "다음 분기에 달성해야 할 목표에 대해 논의하는 미팅을 진행하겠습니다. 아이디어를 미리 생각해오시면 좋습니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456836/p1234567890123503",
+    "created_at": "2025-09-01T09:00:00Z",
+    "updated_at": "2025-09-01T10:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "회원가입 기능 개선",
+    "body": "회원가입 시 이메일 인증 절차를 추가했습니다. 보안을 강화하고 스팸 계정을 줄일 수 있을 것입니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456837/p1234567890123504",
+    "created_at": "2025-09-01T11:20:00Z",
+    "updated_at": "2025-09-01T12:30:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "팀 스터디 주제 추천",
+    "body": "다음 팀 스터디 주제를 추천받고 있습니다. Machine Learning, Kubernetes, WebAssembly 등 자유롭게 의견 주세요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456838/p1234567890123505",
+    "created_at": "2025-09-02T10:45:00Z",
+    "updated_at": "2025-09-02T11:50:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "성능 저하 원인 분석",
+    "body": "최근 사용자 수가 급증하면서 API 응답 시간이 느려지는 현상이 발생하고 있습니다. 원인 분석을 위해 팀원들과 논의가 필요합니다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123506",
+    "created_at": "2025-09-02T15:00:00Z",
+    "updated_at": "2025-09-02T16:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "오픈소스 기여 논의",
+    "body": "사내에서 개발한 라이브러리를 오픈소스로 공개하는 것을 검토하고 있습니다. 라이선스 문제와 관리 방안에 대해 논의해봅시다.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456840/p1234567890123507",
+    "created_at": "2025-09-03T09:30:00Z",
+    "updated_at": "2025-09-03T10:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "안녕하세요! 오늘부터 고릴라에 대한 깊이 있는 대화를 나누어보겠습니다. 고릴라에 대해 어떻게 생각하시나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123506",
+    "created_at": "2025-08-01T09:00:00Z",
+    "updated_at": "2025-08-01T09:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 정말 흥미로운 동물이죠! 인간과 가장 가까운 친척 중 하나인데, 그들의 지능과 사회성이 놀라워요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123507",
+    "created_at": "2025-08-01T09:10:00Z",
+    "updated_at": "2025-08-01T09:12:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아요! 고릴라의 DNA가 인간과 98% 이상 일치한다고 하잖아요. 그런데 왜 그렇게 강력하고 위험하다고 생각하시나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123508",
+    "created_at": "2025-08-01T09:15:00Z",
+    "updated_at": "2025-08-01T09:18:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라의 폭력성에 대해 말씀하시는군요. 실제로는 고릴라가 평화로운 동물이라는 연구 결과가 많아요. 대부분의 경우 위협을 받을 때만 공격한다고 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123509",
+    "created_at": "2025-08-01T09:20:00Z",
+    "updated_at": "2025-08-01T09:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라의 식생활은 어떨까요? 주로 무엇을 먹고 살아가는지 궁금해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123510",
+    "created_at": "2025-08-01T09:30:00Z",
+    "updated_at": "2025-08-01T09:32:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 주로 초식동물이에요! 나뭇잎, 줄기, 과일, 꽃 등을 먹고 살아가죠. 하루에 20-30kg의 식물을 섭취한다고 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123511",
+    "created_at": "2025-08-01T09:35:00Z",
+    "updated_at": "2025-08-01T09:40:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "와, 그렇게 많이 먹는다니 놀라워요! 그런데 만약 야생에서 고릴라를 만났다면 어떤 일이 일어날까요? 최악의 상황은 뭘까요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123512",
+    "created_at": "2025-08-01T09:45:00Z",
+    "updated_at": "2025-08-01T09:50:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라를 만났을 때 최악의 상황은... 아마도 고릴라가 자신이나 가족을 위협으로 인식했을 때일 거예요. 그때는 정말 위험할 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123513",
+    "created_at": "2025-08-01T10:00:00Z",
+    "updated_at": "2025-08-01T10:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 사회 구조에 대해서도 궁금해요. 어떻게 살아가는지, 가족 관계는 어떤지 알고 싶어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123514",
+    "created_at": "2025-08-01T10:15:00Z",
+    "updated_at": "2025-08-01T10:18:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 매우 가족 중심적인 사회를 가지고 있어요. 실버백이라는 성숙한 수컷이 무리의 리더가 되고, 여러 암컷과 그들의 새끼들이 함께 살아가죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123515",
+    "created_at": "2025-08-01T10:20:00Z",
+    "updated_at": "2025-08-01T10:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "실버백이 리더라니 흥미롭네요! 그런데 고릴라의 폭력성에 대해 다시 생각해보면, 실제로는 그렇게 위험하지 않을 수도 있겠어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123516",
+    "created_at": "2025-08-01T10:30:00Z",
+    "updated_at": "2025-08-01T10:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "맞아요! 고릴라는 평화를 선호하는 동물이에요. 대부분의 경우 도망가거나 위협 행동만 보일 뿐, 실제 공격은 거의 하지 않는다고 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123517",
+    "created_at": "2025-08-01T10:40:00Z",
+    "updated_at": "2025-08-01T10:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 지능에 대해서는 어떻게 생각하세요? 도구를 사용한다거나 언어를 배울 수 있다는 연구 결과가 있잖아요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123518",
+    "created_at": "2025-08-01T11:00:00Z",
+    "updated_at": "2025-08-01T11:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라의 지능은 정말 놀라워요! 코코라는 고릴라가 수화를 배워서 1000개 이상의 단어를 사용할 수 있었다고 하잖아요. 감정도 표현할 수 있었고요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123519",
+    "created_at": "2025-08-01T11:10:00Z",
+    "updated_at": "2025-08-01T11:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라의 식생활과 지능이 연결되어 있을 수도 있겠네요. 복잡한 식물을 찾고 처리하는 능력이 지능 발달에 도움이 되었을 것 같아요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123520",
+    "created_at": "2025-08-01T11:20:00Z",
+    "updated_at": "2025-08-01T11:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 좋은 관찰이에요! 고릴라가 다양한 식물을 구분하고, 어떤 것이 먹을 수 있는지, 어떤 것이 영양가가 높은지 판단하는 능력이 필요했을 거예요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123521",
+    "created_at": "2025-08-01T11:30:00Z",
+    "updated_at": "2025-08-01T11:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그런데 다시 고릴라를 만났을 때의 최악의 상황으로 돌아가면, 만약 고릴라가 실제로 공격한다면 어떻게 대응해야 할까요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123522",
+    "created_at": "2025-08-01T11:40:00Z",
+    "updated_at": "2025-08-01T11:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "전문가들은 고릴라와 마주쳤을 때는 눈을 맞추지 말고, 천천히 뒤로 물러나며, 갑작스러운 움직임을 피하라고 조언해요. 도망가면 안 되고요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123523",
+    "created_at": "2025-08-01T11:50:00Z",
+    "updated_at": "2025-08-01T11:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 서식지에 대해서도 궁금해요. 주로 어디에 살고, 환경 변화로 인한 위협은 없는지 알고 싶어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123524",
+    "created_at": "2025-08-01T12:00:00Z",
+    "updated_at": "2025-08-01T12:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 주로 아프리카 중부의 열대우림에 살아요. 콩고민주공화국, 르완다, 우간다 등지에 분포하고 있죠. 하지만 서식지 파괴로 개체수가 줄어들고 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123525",
+    "created_at": "2025-08-01T12:10:00Z",
+    "updated_at": "2025-08-01T12:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라 보호에 대한 우리의 역할은 무엇일까요? 어떻게 도움을 줄 수 있을까요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123526",
+    "created_at": "2025-08-01T12:20:00Z",
+    "updated_at": "2025-08-01T12:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라 보호를 위해서는 서식지 보호, 불법 사냥 방지, 환경 교육 등이 필요해요. 우리도 관련 기관에 기부하거나 인식을 높이는 데 기여할 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123527",
+    "created_at": "2025-08-01T12:30:00Z",
+    "updated_at": "2025-08-01T12:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 번식과 성장에 대해서도 궁금해요. 새끼는 언제 태어나고, 어떻게 자라는지 알고 싶어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123528",
+    "created_at": "2025-08-01T12:40:00Z",
+    "updated_at": "2025-08-01T12:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라 새끼는 약 8-9개월의 임신 기간을 거쳐 태어나요. 태어날 때는 약 2kg 정도이고, 3-4년 동안 어머니의 보호를 받으며 자라죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123529",
+    "created_at": "2025-08-01T12:50:00Z",
+    "updated_at": "2025-08-01T12:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 수명은 얼마나 되나요? 인간과 비슷한가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123530",
+    "created_at": "2025-08-01T13:00:00Z",
+    "updated_at": "2025-08-01T13:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "야생에서는 보통 35-40년 정도 살고, 동물원에서는 50년 이상 살 수도 있어요. 인간보다는 짧지만 다른 동물들에 비해서는 긴 수명이죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123531",
+    "created_at": "2025-08-01T13:10:00Z",
+    "updated_at": "2025-08-01T13:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 의사소통 방식에 대해서도 궁금해요. 어떻게 서로 소통하는지 알고 싶어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123532",
+    "created_at": "2025-08-01T13:20:00Z",
+    "updated_at": "2025-08-01T13:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 다양한 소리와 몸짓으로 의사소통해요. 포효, 으르렁거림, 비명, 그리고 가슴을 치는 행동 등이 모두 의미가 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123533",
+    "created_at": "2025-08-01T13:30:00Z",
+    "updated_at": "2025-08-01T13:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "가슴을 치는 행동이 가장 유명하죠! 그런데 이 행동이 정말 위협을 나타내는 건가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123534",
+    "created_at": "2025-08-01T13:40:00Z",
+    "updated_at": "2025-08-01T13:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "가슴 치기는 주로 영역을 표시하거나 다른 고릴라에게 자신의 존재를 알리는 행동이에요. 항상 공격적이지는 않고, 때로는 놀이나 의사소통의 일부일 수도 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123535",
+    "created_at": "2025-08-01T13:50:00Z",
+    "updated_at": "2025-08-01T13:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 일상 생활은 어떤가요? 하루를 어떻게 보내는지 궁금해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123536",
+    "created_at": "2025-08-01T14:00:00Z",
+    "updated_at": "2025-08-01T14:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 주로 먹이를 찾고 먹는 데 많은 시간을 보내요. 아침에 일어나서 식사를 하고, 오후에는 휴식을 취하거나 놀이를 하며, 저녁에는 둥지를 만들어 잠을 자요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123537",
+    "created_at": "2025-08-01T14:10:00Z",
+    "updated_at": "2025-08-01T14:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "둥지를 만든다니! 어떻게 만드는지 궁금해요. 나뭇가지로 만드나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123538",
+    "created_at": "2025-08-01T14:20:00Z",
+    "updated_at": "2025-08-01T14:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "네, 맞아요! 고릴라는 나뭇가지와 잎을 사용해서 둥지를 만들어요. 땅 위나 나무 위에 만들 수 있고, 매일 새로운 둥지를 만든다고 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123539",
+    "created_at": "2025-08-01T14:30:00Z",
+    "updated_at": "2025-08-01T14:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 체력과 근력에 대해서는 어떻게 생각하세요? 정말 그렇게 강한가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123540",
+    "created_at": "2025-08-01T14:40:00Z",
+    "updated_at": "2025-08-01T14:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 정말 강력해요! 성인 수컷은 인간보다 6-8배 강하다고 해요. 하지만 그 힘을 주로 나무를 오르거나 먹이를 찾는 데 사용해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123541",
+    "created_at": "2025-08-01T14:50:00Z",
+    "updated_at": "2025-08-01T14:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그런데 고릴라의 폭력성에 대해 다시 생각해보면, 그 힘이 위험할 수 있지 않나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123542",
+    "created_at": "2025-08-01T15:00:00Z",
+    "updated_at": "2025-08-01T15:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "물론 힘이 있지만, 고릴라는 그 힘을 함부로 사용하지 않아요. 대부분의 경우 위협 행동만으로 충분하다고 생각하는 것 같아요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123543",
+    "created_at": "2025-08-01T15:10:00Z",
+    "updated_at": "2025-08-01T15:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 식생활에서 특별히 좋아하는 음식이 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123544",
+    "created_at": "2025-08-01T15:20:00Z",
+    "updated_at": "2025-08-01T15:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 과일을 특히 좋아해요! 바나나, 망고, 무화과 등을 선호한다고 해요. 하지만 계절에 따라 먹을 수 있는 것이 달라지죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123545",
+    "created_at": "2025-08-01T15:30:00Z",
+    "updated_at": "2025-08-01T15:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 먹이를 놓고 다툴 때일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123546",
+    "created_at": "2025-08-01T15:40:00Z",
+    "updated_at": "2025-08-01T15:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "맞아요! 고릴라가 먹이를 보호하려고 할 때는 정말 위험할 수 있어요. 특히 새끼가 있는 어머니 고릴라는 더욱 민감하죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123547",
+    "created_at": "2025-08-01T15:50:00Z",
+    "updated_at": "2025-08-01T15:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 감정 표현에 대해서도 궁금해요. 인간처럼 다양한 감정을 느끼나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123548",
+    "created_at": "2025-08-01T16:00:00Z",
+    "updated_at": "2025-08-01T16:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 정말 다양한 감정을 표현해요! 기쁨, 슬픔, 분노, 두려움, 애정 등. 코코는 자신의 애완 고양이가 죽었을 때 슬퍼했다고 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123549",
+    "created_at": "2025-08-01T16:10:00Z",
+    "updated_at": "2025-08-01T16:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 학습 능력에 대해서도 궁금해요. 새로운 것을 얼마나 빨리 배우나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123550",
+    "created_at": "2025-08-01T16:20:00Z",
+    "updated_at": "2025-08-01T16:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 놀라운 학습 능력을 가지고 있어요! 언어, 도구 사용, 문제 해결 등 다양한 분야에서 빠르게 배울 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123551",
+    "created_at": "2025-08-01T16:30:00Z",
+    "updated_at": "2025-08-01T16:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 기억력은 어떨까요? 오래 기억할 수 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123552",
+    "created_at": "2025-08-01T16:40:00Z",
+    "updated_at": "2025-08-01T16:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라의 기억력은 정말 뛰어나요! 수년 전에 만난 사람을 기억하고, 복잡한 경로를 기억하며, 가족 구성원들을 오랫동안 기억해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123553",
+    "created_at": "2025-08-01T16:50:00Z",
+    "updated_at": "2025-08-01T16:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 과거에 나쁜 경험을 했던 고릴라를 만났을 때일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123554",
+    "created_at": "2025-08-01T17:00:00Z",
+    "updated_at": "2025-08-01T17:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 좋은 지적이에요! 고릴라가 과거에 인간에게 상처를 받았다면, 그 기억 때문에 공격적일 수 있어요. 그래서 평화로운 접촉이 중요해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123555",
+    "created_at": "2025-08-01T17:10:00Z",
+    "updated_at": "2025-08-01T17:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 놀이 행동에 대해서도 궁금해요. 어떻게 놀아요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123556",
+    "created_at": "2025-08-01T17:20:00Z",
+    "updated_at": "2025-08-01T17:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 정말 장난기 많고 재미있는 놀이를 해요! 쿵쿵댕이, 숨바꼭질, 물장난, 그리고 서로 쫓아다니는 놀이를 즐겨요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123557",
+    "created_at": "2025-08-01T17:30:00Z",
+    "updated_at": "2025-08-01T17:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 유머 감각도 있나요? 웃을 수 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123558",
+    "created_at": "2025-08-01T17:40:00Z",
+    "updated_at": "2025-08-01T17:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라도 웃을 수 있어요! 코코는 장난을 치거나 재미있는 일이 있을 때 웃었다고 해요. 유머 감각도 있다고 연구자들이 말해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123559",
+    "created_at": "2025-08-01T17:50:00Z",
+    "updated_at": "2025-08-01T17:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 건강과 질병에 대해서도 궁금해요. 어떤 병에 걸릴 수 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123560",
+    "created_at": "2025-08-01T18:00:00Z",
+    "updated_at": "2025-08-01T18:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 인간과 비슷한 질병에 걸릴 수 있어요. 감기, 폐렴, 심장병, 암 등. 특히 인간과의 접촉으로 전염병에 걸릴 위험이 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123561",
+    "created_at": "2025-08-01T18:10:00Z",
+    "updated_at": "2025-08-01T18:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 병을 전파할 위험이 있을 때일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123562",
+    "created_at": "2025-08-01T18:20:00Z",
+    "updated_at": "2025-08-01T18:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 중요한 포인트예요! 고릴라와의 접촉은 양쪽 모두에게 위험할 수 있어요. 그래서 전문가들은 적절한 거리를 유지하라고 조언해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123563",
+    "created_at": "2025-08-01T18:30:00Z",
+    "updated_at": "2025-08-01T18:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 보호 활동에 대해 더 자세히 알고 싶어요. 어떤 기관들이 활동하고 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123564",
+    "created_at": "2025-08-01T18:40:00Z",
+    "updated_at": "2025-08-01T18:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "WWF, 고릴라 재단, 다이안 포시 고릴라 기금 등 많은 기관들이 고릴라 보호에 힘쓰고 있어요. 서식지 보호, 불법 사냥 방지, 교육 등 다양한 활동을 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123565",
+    "created_at": "2025-08-01T18:50:00Z",
+    "updated_at": "2025-08-01T18:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라 관광에 대해서는 어떻게 생각하세요? 좋은 일인가요, 나쁜 일인가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123566",
+    "created_at": "2025-08-01T19:00:00Z",
+    "updated_at": "2025-08-01T19:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라 관광은 양면성이 있어요. 적절하게 관리되면 보호 자금을 마련하고 인식을 높일 수 있지만, 과도한 관광은 스트레스를 줄 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123567",
+    "created_at": "2025-08-01T19:10:00Z",
+    "updated_at": "2025-08-01T19:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 미래에 대해서는 어떻게 생각하세요? 멸종 위기에 처해 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123568",
+    "created_at": "2025-08-01T19:20:00Z",
+    "updated_at": "2025-08-01T19:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "네, 고릴라는 심각한 멸종 위기에 처해 있어요. 서식지 파괴, 불법 사냥, 전쟁 등으로 개체수가 급감하고 있어요. 하지만 보호 노력으로 일부 지역에서는 회복되고 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123569",
+    "created_at": "2025-08-01T19:30:00Z",
+    "updated_at": "2025-08-01T19:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "안녕하세요! 어제 고릴라에 대한 대화가 정말 흥미로웠어요. 오늘은 고릴라의 행동 패턴에 대해 더 자세히 알아보고 싶어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123570",
+    "created_at": "2025-08-02T09:00:00Z",
+    "updated_at": "2025-08-02T09:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "안녕하세요! 고릴라의 행동 패턴은 정말 복잡하고 흥미로워요. 어떤 부분에 대해 궁금하신가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123571",
+    "created_at": "2025-08-02T09:10:00Z",
+    "updated_at": "2025-08-02T09:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라가 왜 가슴을 치는지 정확한 이유가 궁금해요. 항상 위협을 나타내는 건가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123572",
+    "created_at": "2025-08-02T09:20:00Z",
+    "updated_at": "2025-08-02T09:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "가슴 치기는 여러 가지 의미가 있어요. 영역 표시, 다른 고릴라에게 자신의 존재 알리기, 놀이의 일부, 때로는 위협 등 상황에 따라 다르죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123573",
+    "created_at": "2025-08-02T09:30:00Z",
+    "updated_at": "2025-08-02T09:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라의 폭력성에 대해 다시 생각해보면, 그 행동들이 항상 공격적이지는 않다는 거네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123574",
+    "created_at": "2025-08-02T09:40:00Z",
+    "updated_at": "2025-08-02T09:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "맞아요! 고릴라의 행동을 제대로 이해하는 것이 중요해요. 겉보기에 위협적으로 보이는 행동도 실제로는 의사소통의 일부일 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123575",
+    "created_at": "2025-08-02T09:50:00Z",
+    "updated_at": "2025-08-02T09:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 식생활에서 계절에 따른 변화가 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123576",
+    "created_at": "2025-08-02T10:00:00Z",
+    "updated_at": "2025-08-02T10:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "네, 고릴라의 식생활은 계절에 따라 크게 달라져요. 건기에는 나뭇잎과 줄기를 주로 먹고, 우기에는 과일과 꽃을 더 많이 먹어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123577",
+    "created_at": "2025-08-02T10:10:00Z",
+    "updated_at": "2025-08-02T10:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 먹이 부족 시기일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123578",
+    "created_at": "2025-08-02T10:20:00Z",
+    "updated_at": "2025-08-02T10:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 좋은 관찰이에요! 먹이 부족 시기에는 고릴라가 더 민감하고 보호적일 수 있어요. 특히 가족을 먹여 살려야 하는 실버백은 더욱 위험할 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123579",
+    "created_at": "2025-08-02T10:30:00Z",
+    "updated_at": "2025-08-02T10:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 도구 사용 능력에 대해서도 궁금해요. 어떤 도구를 어떻게 사용하나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123580",
+    "created_at": "2025-08-02T10:40:00Z",
+    "updated_at": "2025-08-02T10:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 다양한 도구를 사용해요! 나뭇가지를 사용해서 먹이를 측정하거나, 돌을 사용해서 견과류를 깨고, 막대기를 사용해서 벌집에서 꿀을 얻기도 해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123581",
+    "created_at": "2025-08-02T10:50:00Z",
+    "updated_at": "2025-08-02T10:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 문제 해결 능력은 어떨까요? 복잡한 상황을 어떻게 처리하나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123582",
+    "created_at": "2025-08-02T11:00:00Z",
+    "updated_at": "2025-08-02T11:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 놀라운 문제 해결 능력을 가지고 있어요! 복잡한 퍼즐을 풀고, 새로운 상황에 적응하며, 창의적인 방법으로 문제를 해결해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123583",
+    "created_at": "2025-08-02T11:10:00Z",
+    "updated_at": "2025-08-02T11:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 사회적 지능에 대해서도 궁금해요. 다른 고릴라와의 관계를 어떻게 관리하나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123584",
+    "created_at": "2025-08-02T11:20:00Z",
+    "updated_at": "2025-08-02T11:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라의 사회적 지능은 정말 뛰어나요! 복잡한 가족 관계를 이해하고, 갈등을 해결하며, 협력과 공감 능력을 보여줘요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123585",
+    "created_at": "2025-08-02T11:30:00Z",
+    "updated_at": "2025-08-02T11:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 감정적 지능에 대해서도 궁금해요. 다른 개체의 감정을 이해할 수 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123586",
+    "created_at": "2025-08-02T11:40:00Z",
+    "updated_at": "2025-08-02T11:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 놀라운 감정적 지능을 가지고 있어요! 다른 개체의 감정을 읽고, 위로하고, 공감하며, 적절한 반응을 보여줘요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123587",
+    "created_at": "2025-08-02T11:50:00Z",
+    "updated_at": "2025-08-02T11:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 고릴라가 우리의 감정을 잘못 해석했을 때일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123588",
+    "created_at": "2025-08-02T12:00:00Z",
+    "updated_at": "2025-08-02T12:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 중요한 포인트예요! 고릴라가 우리의 두려움이나 긴장을 위협으로 인식할 수 있어요. 그래서 평온하고 자신감 있는 태도를 유지하는 것이 중요해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123589",
+    "created_at": "2025-08-02T12:10:00Z",
+    "updated_at": "2025-08-02T12:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 문화와 전통에 대해서도 궁금해요. 지역마다 다른 행동 패턴이 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123590",
+    "created_at": "2025-08-02T12:20:00Z",
+    "updated_at": "2025-08-02T12:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "네, 고릴라도 지역마다 다른 문화를 가지고 있어요! 도구 사용 방법, 의사소통 방식, 사회적 규칙 등이 무리마다 다를 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123591",
+    "created_at": "2025-08-02T12:30:00Z",
+    "updated_at": "2025-08-02T12:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 개성과 성격에 대해서도 궁금해요. 개체마다 다른 성격을 가지고 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123592",
+    "created_at": "2025-08-02T12:40:00Z",
+    "updated_at": "2025-08-02T12:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 정말 개성 있는 성격을 가지고 있어요! 어떤 개체는 장난기 많고, 어떤 개체는 진지하고, 어떤 개체는 리더십이 강하고 등등 다양해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123593",
+    "created_at": "2025-08-02T12:50:00Z",
+    "updated_at": "2025-08-02T12:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 스트레스와 불안에 대해서도 궁금해요. 어떤 상황에서 스트레스를 받나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123594",
+    "created_at": "2025-08-02T13:00:00Z",
+    "updated_at": "2025-08-02T13:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 다양한 상황에서 스트레스를 받아요. 서식지 파괴, 인간의 침입, 가족 구성원의 상실, 먹이 부족 등이 주요 원인이에요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123595",
+    "created_at": "2025-08-02T13:10:00Z",
+    "updated_at": "2025-08-02T13:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 스트레스를 받고 있는 고릴라를 만났을 때일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123596",
+    "created_at": "2025-08-02T13:20:00Z",
+    "updated_at": "2025-08-02T13:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 중요한 지적이에요! 스트레스를 받고 있는 고릴라는 더 민감하고 예측하기 어려운 행동을 할 수 있어요. 그래서 고릴라의 상태를 읽는 것이 중요해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123597",
+    "created_at": "2025-08-02T13:30:00Z",
+    "updated_at": "2025-08-02T13:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 회복력과 적응력에 대해서도 궁금해요. 환경 변화에 어떻게 대응하나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123598",
+    "created_at": "2025-08-02T13:40:00Z",
+    "updated_at": "2025-08-02T13:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 놀라운 적응력을 가지고 있어요! 새로운 환경에 적응하고, 먹이 부족에 대응하며, 사회적 변화에 유연하게 대처해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123599",
+    "created_at": "2025-08-02T13:50:00Z",
+    "updated_at": "2025-08-02T13:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 미래 보호 방안에 대해 더 구체적으로 알고 싶어요. 우리가 할 수 있는 일은 무엇인가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123600",
+    "created_at": "2025-08-02T14:00:00Z",
+    "updated_at": "2025-08-02T14:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "우리가 할 수 있는 일들이 있어요! 지속 가능한 제품 구매, 보호 기관 기부, 인식 확산, 환경 보호 활동 참여 등이 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123601",
+    "created_at": "2025-08-02T14:10:00Z",
+    "updated_at": "2025-08-02T14:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "안녕하세요! 오늘은 고릴라의 생태학적 역할에 대해 더 자세히 알아보고 싶어요. 고릴라가 생태계에서 어떤 역할을 하나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123602",
+    "created_at": "2025-08-03T09:00:00Z",
+    "updated_at": "2025-08-03T09:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라는 생태계에서 매우 중요한 역할을 해요! 씨앗 분산, 식물 성장 촉진, 숲의 구조 유지 등 다양한 기능을 수행해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123603",
+    "created_at": "2025-08-03T09:10:00Z",
+    "updated_at": "2025-08-03T09:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 폭력성에 대해 다시 생각해보면, 그들이 생태계에서 중요한 역할을 한다면 보호해야 할 이유가 더욱 명확해지네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123604",
+    "created_at": "2025-08-03T09:20:00Z",
+    "updated_at": "2025-08-03T09:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 좋은 관점이에요! 고릴라가 생태계의 건강을 유지하는 데 중요한 역할을 하므로, 그들을 보호하는 것은 전체 생태계를 보호하는 것과 같아요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123605",
+    "created_at": "2025-08-03T09:30:00Z",
+    "updated_at": "2025-08-03T09:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 식생활이 생태계에 미치는 영향에 대해서도 궁금해요. 어떻게 식물 생장에 도움이 되나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123606",
+    "created_at": "2025-08-03T09:40:00Z",
+    "updated_at": "2025-08-03T09:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "고릴라가 식물을 먹으면서 씨앗을 다른 곳으로 운반하고, 배설물을 통해 영양분을 공급해요. 이는 새로운 식물의 성장을 촉진해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123607",
+    "created_at": "2025-08-03T09:50:00Z",
+    "updated_at": "2025-08-03T09:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇다면 고릴라를 만났을 때 최악의 상황 중 하나는 그들이 중요한 생태학적 역할을 수행하는 중에 방해받았을 때일 수도 있겠네요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123608",
+    "created_at": "2025-08-03T10:00:00Z",
+    "updated_at": "2025-08-03T10:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 중요한 포인트예요! 고릴라가 중요한 생태학적 활동을 하고 있을 때 방해받으면 스트레스를 받고, 이는 생태계 전체에 영향을 줄 수 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123609",
+    "created_at": "2025-08-03T10:10:00Z",
+    "updated_at": "2025-08-03T10:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 연구와 보호에 대한 최신 동향에 대해서도 궁금해요. 어떤 새로운 발견들이 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123610",
+    "created_at": "2025-08-03T10:20:00Z",
+    "updated_at": "2025-08-03T10:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "최근에는 고릴라의 유전학적 다양성, 행동 패턴의 복잡성, 그리고 인간과의 유사점에 대한 새로운 연구 결과들이 나오고 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123611",
+    "created_at": "2025-08-03T10:30:00Z",
+    "updated_at": "2025-08-03T10:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 보호 성공 사례에 대해서도 알고 싶어요. 어떤 지역에서 개체수가 회복되고 있나요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123612",
+    "created_at": "2025-08-03T10:40:00Z",
+    "updated_at": "2025-08-03T10:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "르완다의 볼카노스 국립공원과 우간다의 빈디 임페네트라블 국립공원에서 고릴라 개체수가 안정적으로 유지되고 있어요. 보호 노력의 성공 사례죠.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123613",
+    "created_at": "2025-08-03T10:50:00Z",
+    "updated_at": "2025-08-03T10:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 미래 전망에 대해서는 어떻게 생각하세요? 낙관적인가요, 비관적인가요?",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123614",
+    "created_at": "2025-08-03T11:00:00Z",
+    "updated_at": "2025-08-03T11:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "조심스럽게 낙관적이에요. 보호 노력이 성과를 보이고 있고, 인식이 높아지고 있어요. 하지만 여전히 많은 도전과제가 있어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123615",
+    "created_at": "2025-08-03T11:10:00Z",
+    "updated_at": "2025-08-03T11:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라에 대한 우리의 대화가 정말 흥미로웠어요. 이제 고릴라에 대해 훨씬 더 깊이 이해하게 된 것 같아요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123616",
+    "created_at": "2025-08-03T11:20:00Z",
+    "updated_at": "2025-08-03T11:25:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "네, 정말 의미 있는 대화였어요! 고릴라의 복잡성과 아름다움을 더 많은 사람들이 이해할 수 있도록 노력해야겠어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123617",
+    "created_at": "2025-08-03T11:30:00Z",
+    "updated_at": "2025-08-03T11:35:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 폭력성, 식생활, 최악의 상황에 대한 우리의 논의가 정말 유익했어요. 이제 고릴라를 더 현실적으로 이해할 수 있게 되었어요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123618",
+    "created_at": "2025-08-03T11:40:00Z",
+    "updated_at": "2025-08-03T11:45:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "맞아요! 고릴라는 단순히 위험한 동물이 아니라 복잡하고 지능적이며 사회적인 존재라는 것을 이해하는 것이 중요해요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123619",
+    "created_at": "2025-08-03T11:50:00Z",
+    "updated_at": "2025-08-03T11:55:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "앞으로도 고릴라에 대한 연구와 보호 활동이 계속 발전했으면 좋겠어요. 우리의 대화가 그런 노력에 작은 기여가 되었기를 바라요.",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123620",
+    "created_at": "2025-08-03T12:00:00Z",
+    "updated_at": "2025-08-03T12:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-2.slack.com",
+    "author_email": "lee.ape@example.com",
+    "title": "",
+    "body": "정말 좋은 마음가짐이에요! 고릴라에 대한 이해와 관심이 높아질수록 보호 노력도 더욱 효과적이 될 거예요. 감사합니다!",
+    "link": "https://sg-dev-community-2.slack.com/archives/C0123456839/p1234567890123621",
+    "created_at": "2025-08-03T12:10:00Z",
+    "updated_at": "2025-08-03T12:15:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라에 대해 생각해 본 적 있어? 왠지 모르게 멋있는 동물 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444800000001",
+    "created_at": "2025-08-01T09:00:00Z",
+    "updated_at": "2025-08-01T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "당연하지! 덩치는 크지만, 눈빛이 뭔가... 지혜로워 보이잖아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444800000002",
+    "created_at": "2025-08-01T09:00:30Z",
+    "updated_at": "2025-08-01T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 그 덩치 때문에 좀 무서워 보이기도 하지만, 실제로는 상당히 평화로운 동물이라고 하더라.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444860000003",
+    "created_at": "2025-08-01T09:01:00Z",
+    "updated_at": "2025-08-01T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "나도 그런 얘기 들었어. 근데 가끔 TV에서 가슴을 쾅쾅 치는 모습 보면 무섭기도 해.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444890000004",
+    "created_at": "2025-08-01T09:01:30Z",
+    "updated_at": "2025-08-01T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그게 사실 공격적인 행동은 아닐 수도 있대. 자기 영역을 알리거나, 그냥 과시하는 행동일 가능성이 높다고 하던데.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444920000005",
+    "created_at": "2025-08-01T09:02:00Z",
+    "updated_at": "2025-08-01T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "정말? 그럼 우리가 생각하는 것보다 훨씬 더 온순한 동물일 수도 있겠네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444950000006",
+    "created_at": "2025-08-01T09:02:30Z",
+    "updated_at": "2025-08-01T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 폭력성에 대해 좀 더 찾아봤는데, 대부분의 싸움은 고릴라 무리 내에서 서열 다툼 때문에 일어난대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531200000007",
+    "created_at": "2025-08-02T09:00:00Z",
+    "updated_at": "2025-08-02T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "오, 흥미롭네. 그럼 다른 동물한테 먼저 시비 거는 경우는 거의 없다는 거네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531230000008",
+    "created_at": "2025-08-02T09:00:30Z",
+    "updated_at": "2025-08-02T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "응. 그리고 고릴라끼리 싸워도, 사람처럼 막 죽일 듯이 싸우는 게 아니라, 가볍게 상대를 밀치거나 위협하는 정도로 끝난다고 하더라고.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531260000009",
+    "created_at": "2025-08-02T09:01:00Z",
+    "updated_at": "2025-08-02T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 우리가 고릴라를 너무 폭력적으로 오해하고 있었던 것 같아. 영화에서 나오는 모습만 봐서 그런가.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531290000010",
+    "created_at": "2025-08-02T09:01:30Z",
+    "updated_at": "2025-08-02T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 킹콩 같은 이미지 때문에 더 그런 것 같아. 실제로는 겁이 많아서 사람이 다가가면 오히려 도망간대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531320000011",
+    "created_at": "2025-08-02T09:02:00Z",
+    "updated_at": "2025-08-02T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "진짜 고릴라 폭력성에 대한 편견이 많았네. 좀 더 평화롭게 바라봐야겠어.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531350000012",
+    "created_at": "2025-08-02T09:02:30Z",
+    "updated_at": "2025-08-02T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라 식생활 얘기해 보자. 왠지 잡식성일 것 같지 않아?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617600000013",
+    "created_at": "2025-08-03T09:00:00Z",
+    "updated_at": "2025-08-03T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "나도 그럴 것 같은데. 덩치가 그렇게 큰데 풀만 먹고 살 수 있을까?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617630000014",
+    "created_at": "2025-08-03T09:00:30Z",
+    "updated_at": "2025-08-03T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "찾아보니까 거의 채식주의자래! 주로 나뭇잎, 줄기, 과일, 씨앗 같은 걸 먹는대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617660000015",
+    "created_at": "2025-08-03T09:01:00Z",
+    "updated_at": "2025-08-03T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "진짜? 그 거대한 몸집을 풀떼기만 먹고 유지한다고? 믿기지 않는다.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617690000016",
+    "created_at": "2025-08-03T09:01:30Z",
+    "updated_at": "2025-08-03T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "근데 고릴라가 먹는 식물의 양이 엄청나대. 하루에 18kg 정도 먹는다고 하더라고.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617720000017",
+    "created_at": "2025-08-03T09:02:00Z",
+    "updated_at": "2025-08-03T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 그 정도면 가능하겠다. 18kg라니... 대단하다.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617750000018",
+    "created_at": "2025-08-03T09:02:30Z",
+    "updated_at": "2025-08-03T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라가 식물을 먹는 방식도 신기하더라. 잎사귀를 하나씩 따서 먹는 게 아니라, 한 움큼씩 잡아 뜯어서 입에 넣는대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789D/p1722704000000019",
+    "created_at": "2025-08-04T09:00:00Z",
+    "updated_at": "2025-08-04T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "우와, 상상이 된다. 꼭 식사 시간이 아니라, 끊임없이 먹는 느낌이겠다.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789D/p1722704030000020",
+    "created_at": "2025-08-04T09:00:30Z",
+    "updated_at": "2025-08-04T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 실제로 하루의 상당 부분을 먹는 데 쓴다고 해. 영양분이 부족한 식물들을 많이 먹어서 에너지를 채우는 거지.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789D/p1722704060000021",
+    "created_at": "2025-08-04T09:01:00Z",
+    "updated_at": "2025-08-04T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그럼 고릴라한테는 밥 먹는 게 삶의 가장 큰 일상이겠네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789D/p1722704090000022",
+    "created_at": "2025-08-04T09:01:30Z",
+    "updated_at": "2025-08-04T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그렇지. 그리고 가끔씩은 개미나 흰개미 같은 곤충도 먹는다고 하던데, 그건 거의 영양 보충용이래.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789D/p1722704120000023",
+    "created_at": "2025-08-04T09:02:00Z",
+    "updated_at": "2025-08-04T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "고릴라의 식생활에 대해서도 오해가 많았네. 정말 신기한 동물이야.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789D/p1722704150000024",
+    "created_at": "2025-08-04T09:02:30Z",
+    "updated_at": "2025-08-04T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "이제 좀 으스스한 상상 해볼까? 고릴라를 만났을 때 최악의 상황은 뭘까?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790400000025",
+    "created_at": "2025-08-05T09:00:00Z",
+    "updated_at": "2025-08-05T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "음... 고릴라가 나를 공격하는 거? 당연히 이게 제일 최악이지.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790430000026",
+    "created_at": "2025-08-05T09:00:30Z",
+    "updated_at": "2025-08-05T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그럴 가능성은 희박하지만, 만약 공격받는다면? 가장 위험한 순간은 뭘까?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790460000027",
+    "created_at": "2025-08-05T09:01:00Z",
+    "updated_at": "2025-08-05T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "고릴라가 가슴을 쿵쿵 치면서 달려올 때? 그 위압감은 엄청날 것 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790490000028",
+    "created_at": "2025-08-05T09:01:30Z",
+    "updated_at": "2025-08-05T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 근데 더 최악은... 고릴라가 나를 자기 무리의 위협적인 존재로 인식해서 진짜 목숨 걸고 싸우려고 할 때일 것 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790520000029",
+    "created_at": "2025-08-05T09:02:00Z",
+    "updated_at": "2025-08-05T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "으... 생각만 해도 소름 돋는다. 그때는 정말 속수무책일 텐데.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790550000030",
+    "created_at": "2025-08-05T09:02:30Z",
+    "updated_at": "2025-08-05T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "만약 고릴라를 만났는데, 고릴라가 나를 위협한다고 느껴서 도망가는 게 최악일 수도 있어.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876800000031",
+    "created_at": "2025-08-06T09:00:00Z",
+    "updated_at": "2025-08-06T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "왜? 도망가는 게 당연한 거 아니야?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876830000032",
+    "created_at": "2025-08-06T09:00:30Z",
+    "updated_at": "2025-08-06T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라는 도망가는 걸 보고 상대가 자신보다 약하다고 인식할 수 있대. 그러면 오히려 더 쫓아와서 공격할 수도 있다고 하더라고.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876860000033",
+    "created_at": "2025-08-06T09:01:00Z",
+    "updated_at": "2025-08-06T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "대박... 그럼 어떻게 해야 해? 그냥 가만히 있어야 하나?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876890000034",
+    "created_at": "2025-08-06T09:01:30Z",
+    "updated_at": "2025-08-06T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "전문가들은 눈을 마주치지 않고, 몸을 낮추고, 천천히 뒷걸음질 치라고 하더라. 최대한 위협적이지 않은 모습을 보여주는 게 중요하대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876920000035",
+    "created_at": "2025-08-06T09:02:00Z",
+    "updated_at": "2025-08-06T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 고릴라를 만났을 때 대처법도 정말 중요하구나. 몰랐던 사실이네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876950000036",
+    "created_at": "2025-08-06T09:02:30Z",
+    "updated_at": "2025-08-06T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "최악의 상황 두 번째를 생각해보자. 고릴라가 내 물건을 가져갔을 때.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789G/p1722963200000037",
+    "created_at": "2025-08-07T09:00:00Z",
+    "updated_at": "2025-08-07T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "물건 가져가는 게 왜 최악이야? 그냥 주면 되지.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789G/p1722963230000038",
+    "created_at": "2025-08-07T09:00:30Z",
+    "updated_at": "2025-08-07T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "만약 그게 내 차 키나 핸드폰 같은 중요한 물건이라면? 고릴라한테 다가가서 그걸 뺏으려고 하면 어떨까?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789G/p1722963260000039",
+    "created_at": "2025-08-07T09:01:00Z",
+    "updated_at": "2025-08-07T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "아... 상상만 해도 끔찍하다. 고릴라한테 내 물건 달라고 소리치다가 공격당할 수도 있겠네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789G/p1722963290000040",
+    "created_at": "2025-08-07T09:01:30Z",
+    "updated_at": "2025-08-07T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 고릴라한테는 내 물건이 그냥 '새로운 장난감'일 뿐일 텐데, 그걸 뺏으려는 행동이 엄청난 도발로 받아들여질 수 있다는 거지.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789G/p1722963320000041",
+    "created_at": "2025-08-07T09:02:00Z",
+    "updated_at": "2025-08-07T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "물건 뺏으려다가 큰일 날 수 있겠네. 정말 조심해야겠다.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789G/p1722963350000042",
+    "created_at": "2025-08-07T09:02:30Z",
+    "updated_at": "2025-08-07T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라와 관련된 최악의 상황, 세 번째. 고릴라가 내 영역에 침범했을 때.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789H/p1723049600000043",
+    "created_at": "2025-08-08T09:00:00Z",
+    "updated_at": "2025-08-08T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "고릴라가 사람 사는 동네에 나타났을 때 말하는 거지?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789H/p1723049630000044",
+    "created_at": "2025-08-08T09:00:30Z",
+    "updated_at": "2025-08-08T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "응. 만약에 고릴라가 우리 집 마당에 들어와 있다면?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789H/p1723049660000045",
+    "created_at": "2025-08-08T09:01:00Z",
+    "updated_at": "2025-08-08T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 그거 진짜 최악이다. 도망갈 수도 없고...",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789H/p1723049690000046",
+    "created_at": "2025-08-08T09:01:30Z",
+    "updated_at": "2025-08-08T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "전문가의 도움 없이는 어떻게 해야 할지 모를 거야. 잘못 대처했다가는 고릴라를 흥분시켜서 상황이 더 악화될 수도 있고.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789H/p1723049720000047",
+    "created_at": "2025-08-08T09:02:00Z",
+    "updated_at": "2025-08-08T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그건 정말 공포영화의 한 장면 같다. 다행히 우리나라에서는 일어날 일 없겠지만...",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789H/p1723049750000048",
+    "created_at": "2025-08-08T09:02:30Z",
+    "updated_at": "2025-08-08T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라 폭력성, 식생활, 그리고 최악의 상황까지 이야기했는데, 결국 고릴라에 대한 우리의 오해가 많았던 것 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789I/p1723136000000049",
+    "created_at": "2025-08-09T09:00:00Z",
+    "updated_at": "2025-08-09T09:00:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "응. 특히 고릴라를 '위험한 존재'로만 생각했던 게 가장 큰 오해였던 것 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789I/p1723136030000050",
+    "created_at": "2025-08-09T09:00:30Z",
+    "updated_at": "2025-08-09T09:00:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "사실은 우리보다 훨씬 더 평화롭고, 자기들끼리 잘 지내는 동물이었지.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789I/p1723136060000051",
+    "created_at": "2025-08-09T09:01:00Z",
+    "updated_at": "2025-08-09T09:01:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "진짜 고릴라에 대해 많이 알게 된 것 같아. 다음에 또 이런 이야기 해보자.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789I/p1723136090000052",
+    "created_at": "2025-08-09T09:01:30Z",
+    "updated_at": "2025-08-09T09:01:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "좋아! 그럼 다음엔 침팬지나 오랑우탄에 대해 이야기해 볼까?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789I/p1723136120000053",
+    "created_at": "2025-08-09T09:02:00Z",
+    "updated_at": "2025-08-09T09:02:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그거 좋은 생각이다! 기대돼.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789I/p1723136150000054",
+    "created_at": "2025-08-09T09:02:30Z",
+    "updated_at": "2025-08-09T09:02:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 '실버백'이라는 명칭은 등에 난 하얀 털 때문에 붙여진 거래. 진짜 멋지지 않아?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722444980000055",
+    "created_at": "2025-08-01T09:03:00Z",
+    "updated_at": "2025-08-01T09:03:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "맞아. 그 하얀 털이 권위와 나이를 상징한다고 하던데. 진짜 멋진 리더의 상징 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722445010000056",
+    "created_at": "2025-08-01T09:03:30Z",
+    "updated_at": "2025-08-01T09:03:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "어제 봤던 다큐멘터리에서 고릴라들이 서로 털을 다듬어주는 모습이 나오던데, 진짜 사이좋아 보이더라.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722445040000057",
+    "created_at": "2025-08-01T09:04:00Z",
+    "updated_at": "2025-08-01T09:04:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그게 사회적 유대감을 형성하는 중요한 행동이래. 우리랑 비슷하지 않아?",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722445070000058",
+    "created_at": "2025-08-01T09:04:30Z",
+    "updated_at": "2025-08-01T09:04:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 가족을 끔찍이 아끼는 모습도 인상적이었어. 새끼를 품에 안고 가는 모습은 정말 감동적이야.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722445100000059",
+    "created_at": "2025-08-01T09:05:00Z",
+    "updated_at": "2025-08-01T09:05:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "겉모습은 무서워 보여도, 속은 정말 따뜻한 동물인 것 같아. 고릴라에 대한 인식이 완전히 바뀌었네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789A/p1722445130000060",
+    "created_at": "2025-08-01T09:05:30Z",
+    "updated_at": "2025-08-01T09:05:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라의 폭력성은 주로 '과시용'이라는 게 흥미롭다. 굳이 싸우지 않아도 되는 상황에서는 싸움을 피하려는 경향이 강하대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531380000061",
+    "created_at": "2025-08-02T09:03:00Z",
+    "updated_at": "2025-08-02T09:03:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그럼 우리 인간보다 더 현명한 거 아닌가? 괜한 싸움은 피하고, 중요한 순간에만 힘을 쓰는 거잖아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531410000062",
+    "created_at": "2025-08-02T09:03:30Z",
+    "updated_at": "2025-08-02T09:03:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "맞아. 고릴라의 폭력성은 '생존'과 '사회적 질서 유지'를 위한 최소한의 수단인 것 같아.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531440000063",
+    "created_at": "2025-08-02T09:04:00Z",
+    "updated_at": "2025-08-02T09:04:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그렇네. 괜히 힘자랑하는 게 아니었어. 진짜 고릴라에 대한 편견이 많이 깨진다.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789B/p1722531470000064",
+    "created_at": "2025-08-02T09:04:30Z",
+    "updated_at": "2025-08-02T09:04:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라 식단에서 특이한 점이, 흙도 먹는다는 거야. 흙에 있는 미네랄을 보충하기 위해서래.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617780000065",
+    "created_at": "2025-08-03T09:03:00Z",
+    "updated_at": "2025-08-03T09:03:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 진짜 신기하다. 그냥 먹는 줄 알았는데, 다 이유가 있었네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617810000066",
+    "created_at": "2025-08-03T09:03:30Z",
+    "updated_at": "2025-08-03T09:03:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라가 먹는 풀 중에는 독성이 있는 식물도 있대. 근데 고릴라는 그걸 알아서 피하거나, 해독하는 방법을 알고 있나 봐.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617840000067",
+    "created_at": "2025-08-03T09:04:00Z",
+    "updated_at": "2025-08-03T09:04:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 정말 똑똑하다. 식물을 먹는 것도 그냥 먹는 게 아니었네.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789C/p1722617870000068",
+    "created_at": "2025-08-03T09:04:30Z",
+    "updated_at": "2025-08-03T09:04:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "최악의 상황... 고릴라가 우리 차에 올라타서 창문을 부수려고 할 때.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790580000069",
+    "created_at": "2025-08-05T09:03:00Z",
+    "updated_at": "2025-08-05T09:03:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "와... 진짜 상상만 해도 끔찍하다. 튼튼한 차도 버티기 힘들겠는데.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790610000070",
+    "created_at": "2025-08-05T09:03:30Z",
+    "updated_at": "2025-08-05T09:03:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "전문가들은 이럴 때 차 안에서 소리를 지르거나, 위협적인 행동을 하면 안 된다고 하더라. 오히려 고릴라를 더 자극할 수 있대.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790640000071",
+    "created_at": "2025-08-05T09:04:00Z",
+    "updated_at": "2025-08-05T09:04:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "그럼 그냥 가만히 있어야 한다는 거네. 진짜 무서운 상황이다.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789E/p1722790670000072",
+    "created_at": "2025-08-05T09:04:30Z",
+    "updated_at": "2025-08-05T09:04:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "고릴라를 만났을 때 최악의 상황, 네 번째는 내가 고릴라 무리 안에 갇혔을 때.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722876980000073",
+    "created_at": "2025-08-06T09:03:00Z",
+    "updated_at": "2025-08-06T09:03:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "으... 진짜 상상하기도 싫다. 사방이 고릴라로 둘러싸여 있으면...",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722877010000074",
+    "created_at": "2025-08-06T09:03:30Z",
+    "updated_at": "2025-08-06T09:03:30Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "그럴 때는 무리 리더인 실버백의 눈치를 잘 보고, 최대한 조용히 상황을 벗어나야 한대. 고릴라가 나를 위협적인 존재로 인식하지 않게 하는 게 가장 중요하다고 해.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722877040000075",
+    "created_at": "2025-08-06T09:04:00Z",
+    "updated_at": "2025-08-06T09:04:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community-3.slack.com",
+    "author_email": "user2@example.com",
+    "title": "",
+    "body": "정말 흥미롭네. 고릴라에 대한 정보들이 정말 많구나. 계속 얘기해 보자.",
+    "link": "https://sg-dev-community-3.slack.com/archives/C123456789F/p1722877070000076",
+    "created_at": "2025-08-06T09:04:30Z",
+    "updated_at": "2025-08-06T09:04:30Z"
   }
 ]
