@@ -3,3 +3,5 @@ pip-tools
 black
 ruff
 pytest
+djangorestframework
+drf-spectacular
