@@ -55,12 +55,64 @@ REST_FRAMEWORK = {
 
 # Spectacular 설정
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Django Starter API',
-    'DESCRIPTION': '프로젝트 관리 API',
+    'TITLE': 'InfoBridge API',
+    'DESCRIPTION': '''
+    # InfoBridge 프로젝트 관리 API
+    
+    ## 주요 기능
+    - **프로젝트 관리**: 프로젝트 생성, 수정, 삭제
+    - **자료 관리**: GitHub, Slack, Jira, Gmail 자료 연동
+    - **콘텐츠 관리**: 아이템과 요약 관리
+    - **외부 데이터 매칭**: 키워드/코드 기반 외부 데이터 매칭
+    - **추천 관리**: AI 기반 추천 시스템
+    
+    ## API 그룹
+    - 🏗️ **프로젝트 관리**: 프로젝트 CRUD 및 관련 자료 조회
+    - 📁 **자료 관리**: 프로젝트 자료 관리
+    - 🤖 **AI 관리**: AI 요청 처리
+    - 📝 **콘텐츠 관리**: 아이템과 요약 관리
+    - 🔍 **외부 데이터 매칭**: 외부 API 데이터 매칭
+    - ⭐ **추천 관리**: 추천 시스템 관리
+    ''',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
     'COMPONENT_SPLIT_REQUEST': True,
     'SCHEMA_PATH_PREFIX': '/api/',
+    'TAGS': [
+        {'name': '프로젝트 관리', 'description': '프로젝트 생성, 수정, 삭제 및 관련 자료 조회'},
+        {'name': '자료 관리', 'description': 'GitHub, Slack, Jira, Gmail 등 프로젝트 자료 관리'},
+        {'name': 'AI 관리', 'description': 'AI 요청 처리 및 관리'},
+        {'name': '콘텐츠 관리', 'description': '아이템과 요약 콘텐츠 관리'},
+        {'name': '외부 데이터 매칭', 'description': '키워드/코드 기반 외부 데이터 매칭 및 아이템 생성'},
+        {'name': '추천 관리', 'description': 'AI 기반 추천 시스템 관리'},
+    ],
+    'SWAGGER_UI_SETTINGS': {
+        'deepLinking': True,
+        'persistAuthorization': True,
+        'displayOperationId': True,
+        'filter': True,
+        'showExtensions': True,
+        'showCommonExtensions': True,
+    },
+    'REDOC_UI_SETTINGS': {
+        'hideDownloadButton': False,
+        'hideHostname': False,
+        'hideLoading': False,
+        'nativeScrollbars': False,
+        'pathInMiddlePanel': True,
+        'requiredPropsFirst': True,
+        'scrollYOffset': 0,
+        'showExtensions': True,
+        'sortPropsAlphabetically': True,
+        'suppressWarnings': False,
+        'theme': {
+            'colors': {
+                'primary': {
+                    'main': '#1890ff'
+                }
+            }
+        }
+    }
 }
 
 MIDDLEWARE = [

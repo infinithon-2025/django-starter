@@ -103,11 +103,11 @@ def find_matching_external_data_by_code(project):
 
 
 @extend_schema_view(
-    list=extend_schema(description="프로젝트 목록을 조회합니다."),
-    create=extend_schema(description="새로운 프로젝트를 생성합니다."),
-    retrieve=extend_schema(description="특정 프로젝트의 상세 정보를 조회합니다."),
-    update=extend_schema(description="프로젝트 정보를 수정합니다."),
-    destroy=extend_schema(description="프로젝트를 삭제합니다."),
+    list=extend_schema(description="프로젝트 목록을 조회합니다.", tags=["프로젝트 관리"]),
+    create=extend_schema(description="새로운 프로젝트를 생성합니다.", tags=["프로젝트 관리"]),
+    retrieve=extend_schema(description="특정 프로젝트의 상세 정보를 조회합니다.", tags=["프로젝트 관리"]),
+    update=extend_schema(description="프로젝트 정보를 수정합니다.", tags=["프로젝트 관리"]),
+    destroy=extend_schema(description="프로젝트를 삭제합니다.", tags=["프로젝트 관리"]),
 )
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
@@ -120,7 +120,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="프로젝트의 모든 자료를 반환합니다.",
-        responses={200: ProjectMaterialSerializer(many=True)}
+        responses={200: ProjectMaterialSerializer(many=True)},
+        tags=["프로젝트 관리"]
     )
     @action(detail=True, methods=['get'])
     def materials(self, request, pk=None):
@@ -132,7 +133,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="프로젝트의 모든 아이템을 반환합니다.",
-        responses={200: ItemSerializer(many=True)}
+        responses={200: ItemSerializer(many=True)},
+        tags=["프로젝트 관리"]
     )
     @action(detail=True, methods=['get'])
     def items(self, request, pk=None):
@@ -144,7 +146,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="프로젝트의 모든 요약을 반환합니다.",
-        responses={200: SummarySerializer(many=True)}
+        responses={200: SummarySerializer(many=True)},
+        tags=["프로젝트 관리"]
     )
     @action(detail=True, methods=['get'])
     def summaries(self, request, pk=None):
@@ -156,7 +159,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="프로젝트 키워드와 매칭되는 외부 데이터를 찾습니다.",
-        responses={200: None}  # 동적 응답 스키마
+        responses={200: None},  # 동적 응답 스키마
+        tags=["외부 데이터 매칭"]
     )
     @action(detail=True, methods=['get'], url_path='external_matches_by_keyword')
     def external_matches_by_keyword(self, request, pk=None):
@@ -174,7 +178,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="키워드 기반 외부 데이터 매칭 결과를 기반으로 items와 recommendations 테이블에 새로운 행들을 생성합니다.",
-        responses={200: None}  # 동적 응답 스키마
+        responses={200: None},  # 동적 응답 스키마
+        tags=["외부 데이터 매칭"]
     )
     @action(detail=True, methods=['post'], url_path='create_items_from_external_matches_by_keyword')
     def create_items_from_external_matches_by_keyword(self, request, pk=None):
@@ -261,7 +266,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="프로젝트 코드와 매칭되는 외부 데이터를 찾습니다.",
-        responses={200: None}  # 동적 응답 스키마
+        responses={200: None},  # 동적 응답 스키마
+        tags=["외부 데이터 매칭"]
     )
     @action(detail=True, methods=['get'])
     def external_matches_by_code(self, request, pk=None):
@@ -279,7 +285,8 @@ class ProjectViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="외부 데이터 매칭 결과를 기반으로 items 테이블에 새로운 행들을 생성합니다.",
-        responses={200: None}  # 동적 응답 스키마
+        responses={200: None},  # 동적 응답 스키마
+        tags=["외부 데이터 매칭"]
     )
     @action(detail=True, methods=['post'], url_path='create_items_from_external_matches_by_code')
     def create_items_from_external_matches_by_code(self, request, pk=None):
@@ -349,11 +356,11 @@ class ProjectViewSet(viewsets.ModelViewSet):
 
 
 @extend_schema_view(
-    list=extend_schema(description="프로젝트 자료 목록을 조회합니다."),
-    create=extend_schema(description="새로운 프로젝트 자료를 생성합니다."),
-    retrieve=extend_schema(description="특정 프로젝트 자료의 상세 정보를 조회합니다."),
-    update=extend_schema(description="프로젝트 자료 정보를 수정합니다."),
-    destroy=extend_schema(description="프로젝트 자료를 삭제합니다."),
+    list=extend_schema(description="프로젝트 자료 목록을 조회합니다.", tags=["자료 관리"]),
+    create=extend_schema(description="새로운 프로젝트 자료를 생성합니다.", tags=["자료 관리"]),
+    retrieve=extend_schema(description="특정 프로젝트 자료의 상세 정보를 조회합니다.", tags=["자료 관리"]),
+    update=extend_schema(description="프로젝트 자료 정보를 수정합니다.", tags=["자료 관리"]),
+    destroy=extend_schema(description="프로젝트 자료를 삭제합니다.", tags=["자료 관리"]),
 )
 class ProjectMaterialViewSet(viewsets.ModelViewSet):
     queryset = ProjectMaterial.objects.all()
@@ -366,7 +373,8 @@ class ProjectMaterialViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="자료의 모든 아이템을 반환합니다.",
-        responses={200: ItemSerializer(many=True)}
+        responses={200: ItemSerializer(many=True)},
+        tags=["자료 관리"]
     )
     @action(detail=True, methods=['get'])
     def items(self, request, pk=None):
@@ -378,11 +386,11 @@ class ProjectMaterialViewSet(viewsets.ModelViewSet):
 
 
 @extend_schema_view(
-    list=extend_schema(description="AI 요청 목록을 조회합니다."),
-    create=extend_schema(description="새로운 AI 요청을 생성합니다."),
-    retrieve=extend_schema(description="특정 AI 요청의 상세 정보를 조회합니다."),
-    update=extend_schema(description="AI 요청 정보를 수정합니다."),
-    destroy=extend_schema(description="AI 요청을 삭제합니다."),
+    list=extend_schema(description="AI 요청 목록을 조회합니다.", tags=["AI 관리"]),
+    create=extend_schema(description="새로운 AI 요청을 생성합니다.", tags=["AI 관리"]),
+    retrieve=extend_schema(description="특정 AI 요청의 상세 정보를 조회합니다.", tags=["AI 관리"]),
+    update=extend_schema(description="AI 요청 정보를 수정합니다.", tags=["AI 관리"]),
+    destroy=extend_schema(description="AI 요청을 삭제합니다.", tags=["AI 관리"]),
 )
 class AIRequestViewSet(viewsets.ModelViewSet):
     queryset = AIRequest.objects.all()
@@ -394,12 +402,13 @@ class AIRequestViewSet(viewsets.ModelViewSet):
         description="요약 목록을 조회합니다.",
         parameters=[
             OpenApiParameter(name='project_id', type=int, description='프로젝트 ID로 필터링')
-        ]
+        ],
+        tags=["콘텐츠 관리"]
     ),
-    create=extend_schema(description="새로운 요약을 생성합니다."),
-    retrieve=extend_schema(description="특정 요약의 상세 정보를 조회합니다."),
-    update=extend_schema(description="요약 정보를 수정합니다."),
-    destroy=extend_schema(description="요약을 삭제합니다."),
+    create=extend_schema(description="새로운 요약을 생성합니다.", tags=["콘텐츠 관리"]),
+    retrieve=extend_schema(description="특정 요약의 상세 정보를 조회합니다.", tags=["콘텐츠 관리"]),
+    update=extend_schema(description="요약 정보를 수정합니다.", tags=["콘텐츠 관리"]),
+    destroy=extend_schema(description="요약을 삭제합니다.", tags=["콘텐츠 관리"]),
 )
 class SummaryViewSet(viewsets.ModelViewSet):
     queryset = Summary.objects.all()
@@ -420,12 +429,13 @@ class SummaryViewSet(viewsets.ModelViewSet):
             OpenApiParameter(name='project_id', type=int, description='프로젝트 ID로 필터링'),
             OpenApiParameter(name='material_id', type=int, description='자료 ID로 필터링'),
             OpenApiParameter(name='is_fixed', type=bool, description='고정 상태로 필터링')
-        ]
+        ],
+        tags=["콘텐츠 관리"]
     ),
-    create=extend_schema(description="새로운 아이템을 생성합니다."),
-    retrieve=extend_schema(description="특정 아이템의 상세 정보를 조회합니다."),
-    update=extend_schema(description="아이템 정보를 수정합니다."),
-    destroy=extend_schema(description="아이템을 삭제합니다."),
+    create=extend_schema(description="새로운 아이템을 생성합니다.", tags=["콘텐츠 관리"]),
+    retrieve=extend_schema(description="특정 아이템의 상세 정보를 조회합니다.", tags=["콘텐츠 관리"]),
+    update=extend_schema(description="아이템 정보를 수정합니다.", tags=["콘텐츠 관리"]),
+    destroy=extend_schema(description="아이템을 삭제합니다.", tags=["콘텐츠 관리"]),
 )
 class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
@@ -448,7 +458,8 @@ class ItemViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="아이템의 고정 상태를 토글합니다.",
-        responses={200: ItemSerializer}
+        responses={200: ItemSerializer},
+        tags=["콘텐츠 관리"]
     )
     @action(detail=True, methods=['patch'])
     def toggle_fixed(self, request, pk=None):
@@ -466,12 +477,13 @@ class ItemViewSet(viewsets.ModelViewSet):
         parameters=[
             OpenApiParameter(name='project_id', type=int, description='프로젝트 ID로 필터링'),
             OpenApiParameter(name='is_active', type=bool, description='활성 상태로 필터링')
-        ]
+        ],
+        tags=["추천 관리"]
     ),
-    create=extend_schema(description="새로운 추천을 생성합니다."),
-    retrieve=extend_schema(description="특정 추천의 상세 정보를 조회합니다."),
-    update=extend_schema(description="추천 정보를 수정합니다."),
-    destroy=extend_schema(description="추천을 삭제합니다."),
+    create=extend_schema(description="새로운 추천을 생성합니다.", tags=["추천 관리"]),
+    retrieve=extend_schema(description="특정 추천의 상세 정보를 조회합니다.", tags=["추천 관리"]),
+    update=extend_schema(description="추천 정보를 수정합니다.", tags=["추천 관리"]),
+    destroy=extend_schema(description="추천을 삭제합니다.", tags=["추천 관리"]),
 )
 class RecommendationViewSet(viewsets.ModelViewSet):
     queryset = Recommendation.objects.all()
@@ -491,7 +503,8 @@ class RecommendationViewSet(viewsets.ModelViewSet):
     
     @extend_schema(
         description="추천의 활성 상태를 토글합니다.",
-        responses={200: RecommendationSerializer}
+        responses={200: RecommendationSerializer},
+        tags=["추천 관리"]
     )
     @action(detail=True, methods=['patch'])
     def toggle_active(self, request, pk=None):
