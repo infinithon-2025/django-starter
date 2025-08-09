@@ -32,16 +32,34 @@ DEBUG = env.bool("DJANGO_DEBUG", default=True)
 ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["*"])
 
 # CORS 설정
-CORS_ALLOW_ALL_ORIGINS = True  # 개발 환경에서 모든 오리진 허용
+# 개발 환경에서는 모든 오리진 허용
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
-# 특정 오리진만 허용하려면 아래 설정 사용
+# 특정 오리진만 허용하려면 아래 설정 사용 (프로덕션 환경)
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:3000",
 #     "http://127.0.0.1:3000",
 #     "http://localhost:8080",
 #     "http://127.0.0.1:8080",
+#     "http://localhost:5173",  # Vite 기본 포트
+#     "http://127.0.0.1:5173",
 # ]
+
+# 추가 CORS 설정
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^http://localhost:\d+$",
+    r"^http://127\.0\.0\.1:\d+$",
+    r"^http://0\.0\.0\.0:\d+$",
+]
+
+# CORS 추가 헤더 허용
+CORS_EXPOSE_HEADERS = [
+    'content-type',
+    'content-disposition',
+    'x-total-count',
+    'x-page-count',
+]
 
 # CORS 허용 헤더
 CORS_ALLOW_HEADERS = [
