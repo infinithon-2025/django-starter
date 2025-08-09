@@ -170,6 +170,23 @@ class ProjectViewSet(viewsets.ModelViewSet):
         summaries = project.summaries.all()
         serializer = SummarySerializer(summaries, many=True)
         return Response(serializer.data)
+
+    @extend_schema(
+        description="프로젝트의 최신 요약을 반환합니다.",
+        responses={200: SummarySerializer(many=True)},
+        tags=["프로젝트 관리"]
+    )
+    @action(detail=True, methods=['get'], url_path='latest-summary')
+    def latest_summary(self, request, pk=None):
+        """프로젝트의 최신 요약을 반환"""
+        project = self.get_object()
+        latest_summary = project.summaries.order_by('-created_at').first()
+        
+        if latest_summary:
+            serializer = SummarySerializer([latest_summary], many=True)
+            return Response(serializer.data)
+        else:
+            return Response([], status=status.HTTP_200_OK)
     
     @extend_schema(
         description="프로젝트 키워드와 매칭되는 외부 데이터를 찾습니다.",
@@ -382,7 +399,7 @@ class ProjectViewSet(viewsets.ModelViewSet):
         project = self.get_object()
         
         # is_active=True, is_fixed=True인 아이템만 필터링합니다.
-        items = project.items.filter(is_active=True)
+        items = project.items.filter(is_active=True, is_fixed=True)
         
         if not items:
             return Response(

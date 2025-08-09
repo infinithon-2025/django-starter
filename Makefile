@@ -37,6 +37,8 @@ api-test:
 	@echo "프로젝트 생성: curl -X POST http://localhost:8000/api/projects/ -H 'Content-Type: application/json' -d '{\"author_email\":\"test@example.com\",\"project_name\":\"Test Project\",\"project_code\":\"TEST001\",\"project_keyword\":\"test,api\"}'"
 	@echo "프로젝트 상세: curl http://localhost:8000/api/projects/1/"
 	@echo "프로젝트 자료: curl http://localhost:8000/api/projects/1/materials/"
+	@echo "프로젝트 요약 목록: curl http://localhost:8000/api/projects/1/summaries/"
+	@echo "프로젝트 최신 요약: curl http://localhost:8000/api/projects/1/latest-summary/"
 	@echo "외부 데이터 매칭 (키워드): curl http://localhost:8000/api/projects/1/external_matches_by_keyword/"
 	@echo "외부 데이터 매칭 (코드): curl http://localhost:8000/api/projects/1/external_matches_by_code/"
 	@echo "외부 데이터로 아이템 생성 (키워드): curl -X POST http://localhost:8000/api/projects/1/create_items_from_external_matches_by_keyword/"
