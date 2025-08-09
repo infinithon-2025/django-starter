@@ -36,6 +36,20 @@ ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["*"])
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
+# 디버그 모드에서 CORS 로깅 활성화
+CORS_URLS_REGEX = r'^.*$'
+
+# 추가 CORS 설정
+CORS_ORIGIN_ALLOW_ALL = True  # 모든 오리진 허용 (레거시 설정)
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:8080",
+    "http://127.0.0.1:8080",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
 # 특정 오리진만 허용하려면 아래 설정 사용 (프로덕션 환경)
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:3000",
@@ -46,12 +60,12 @@ CORS_ALLOW_CREDENTIALS = True
 #     "http://127.0.0.1:5173",
 # ]
 
-# 추가 CORS 설정
-CORS_ALLOWED_ORIGIN_REGEXES = [
-    r"^http://localhost:\d+$",
-    r"^http://127\.0\.0\.1:\d+$",
-    r"^http://0\.0\.0\.0:\d+$",
-]
+# 추가 CORS 설정 (CORS_ALLOW_ALL_ORIGINS가 True일 때는 무시됨)
+# CORS_ALLOWED_ORIGIN_REGEXES = [
+#     r"^http://localhost:\d+$",
+#     r"^http://127\.0\.0\.1:\d+$",
+#     r"^http://0\.0\.0\.0:\d+$",
+# ]
 
 # CORS 추가 헤더 허용
 CORS_EXPOSE_HEADERS = [
