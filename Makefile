@@ -49,6 +49,8 @@ api-test:
 	@echo ""
 	@echo "아이템 관리 API:"
 	@echo "아이템 목록: curl http://localhost:8000/api/items/"
+	@echo "아이템 고정 토글: curl -X PATCH http://localhost:8000/api/items/1/toggle_fixed/"
+	@echo "아이템 활성 토글: curl -X PATCH http://localhost:8000/api/items/1/toggle_active/"
 	@echo "아이템 매칭 추천 확인: curl http://localhost:8000/api/items/1/matching_recommendation/"
 
 docs:

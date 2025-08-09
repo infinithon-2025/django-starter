@@ -471,6 +471,28 @@ class ItemViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
     
     @extend_schema(
+        description="아이템의 활성 상태를 토글합니다.",
+        responses={200: ItemSerializer},
+        tags=["콘텐츠 관리"]
+    )
+    @action(detail=True, methods=['patch'], url_path='toggle_active')
+    def toggle_active(self, request, pk=None):
+        """아이템의 활성 상태를 토글"""
+        item = self.get_object()
+        was_active = item.is_active
+        item.is_active = not item.is_active
+        item.save()
+        
+        # 상태 변경 메시지 생성
+        status_text = "활성화" if item.is_active else "비활성화"
+        message = f"아이템 '{item.title}'이(가) {status_text}되었습니다."
+        
+        serializer = self.get_serializer(item)
+        response_data = serializer.data
+        response_data['message'] = message
+        return Response(response_data)
+    
+    @extend_schema(
         description="아이템에 대한 매칭되는 추천이 있는지 확인합니다.",
         responses={200: None},  # 동적 응답 스키마
         tags=["콘텐츠 관리"]
