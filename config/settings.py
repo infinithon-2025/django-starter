@@ -31,6 +31,18 @@ DEBUG = env.bool("DJANGO_DEBUG", default=True)
 
 ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["*"])
 
+# CORS settings for allowing all localhost ports
+CORS_ALLOW_ALL_ORIGINS = env.bool("CORS_ALLOW_ALL_ORIGINS", default=True)
+CORS_ALLOW_CREDENTIALS = True
+
+# If you want to be more specific, you can use:
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://127.0.0.1:3000",
+#     "http://localhost:8080",
+#     "http://127.0.0.1:8080",
+# ]
+
 
 # Application definition
 
@@ -44,6 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_spectacular',
+    'corsheaders',
 ]
 
 # REST Framework 설정
@@ -117,6 +130,7 @@ SPECTACULAR_SETTINGS = {
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
