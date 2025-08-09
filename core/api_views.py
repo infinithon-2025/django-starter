@@ -14,6 +14,17 @@ from .serializers import (
     AIRequestSerializer, SummarySerializer, ItemSerializer, RecommendationSerializer
 )
 
+import google.generativeai as genai
+
+
+# 프로젝트에 종속되지 않는 독립적인 API 키를 사용해야 합니다.
+# 실제 API 키는 환경 변수로 관리하는 것을 권장합니다.
+# genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+
+
+# 예제용 더미 키
+genai.configure(api_key="xxxxx-xxxxx")
+
 
 def load_external_data():
     """외부 API 데이터를 로드합니다."""
@@ -356,6 +367,73 @@ class ProjectViewSet(viewsets.ModelViewSet):
             'errors_count': len(errors),
             'errors': errors
         })
+    
+    @extend_schema(
+        description="프로젝트 아이템들의 본문을 종합하여 AIRequest를 생성하고 요약본을 Summary 테이블에 저장합니다.",
+        responses={201: SummarySerializer},
+        tags=["AI 관리"]
+    )
+    @action(detail=True, methods=['post'], url_path='summarize-items')
+    def summarize_items(self, request, pk=None):
+        """
+        프로젝트의 모든 아이템 본문을 합쳐 AIRequest 테이블에 저장하고, 
+        결과를 Summary 테이블에도 저장합니다.
+        """
+        project = self.get_object()
+        
+        # is_active=True, is_fixed=True인 아이템만 필터링합니다.
+        items = project.items.filter(is_active=True)
+        
+        if not items:
+            return Response(
+                {"detail": "활성화되고 고정된 아이템이 없습니다."},
+                status=status.HTTP_404_NOT_FOUND
+            )
+
+        # title(없는 경우도 있음)과 body를 합쳐서 사용합니다.
+        input_texts = []
+        for item in items:
+            text_to_combine = item.body
+            if item.title:
+                text_to_combine = f"제목: {item.title}\n내용: {text_to_combine}"
+            input_texts.append(text_to_combine)
+        
+        input_text = "\n\n".join(input_texts)
+        
+        # 1. 제미나이 API 모델 설정
+        model = genai.GenerativeModel('gemini-1.5-flash')
+
+        try:
+            # 2. 제미나이 API 호출 및 결과 생성
+            response = model.generate_content(
+                f"하나의 프로젝트에 대한 다음의 자료를 보기 좋게 요약해줘\n\n자료: {input_text}"
+            )
+            output_text = response.text
+
+        except Exception as e:
+            return Response(
+                {"detail": f"Gemini API 호출 실패: {str(e)}"},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
+
+        # 3. AIRequest 객체를 생성하고 저장합니다.
+        ai_request = AIRequest.objects.create(
+            input=input_text,
+            output=output_text,
+            description=f"'{project.project_name}' 프로젝트 아이템 요약 요청"
+        )
+
+        # 4. AIRequest의 output을 정제하여 Summary 테이블에 저장합니다.
+        # 이 예제에서는 AIRequest의 output을 그대로 Summary의 content로 사용합니다.
+        summary = Summary.objects.create(
+            project=project,
+            ai_request=ai_request,
+            content=output_text
+        )
+
+        # 5. 생성된 summary 객체를 직렬화하여 응답으로 반환합니다.
+        serializer = SummarySerializer(summary)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 @extend_schema_view(
