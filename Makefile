@@ -45,6 +45,11 @@ api-test:
 	@echo "추천 관리 API:"
 	@echo "추천 목록: curl http://localhost:8000/api/recommendations/"
 	@echo "추천 토글 (아이템 삭제 포함): curl -X PATCH http://localhost:8000/api/recommendations/1/toggle_active/"
+	@echo "아이템별 추천 찾기: curl http://localhost:8000/api/recommendations/by_item/?item_id=1"
+	@echo ""
+	@echo "아이템 관리 API:"
+	@echo "아이템 목록: curl http://localhost:8000/api/items/"
+	@echo "아이템 매칭 추천 확인: curl http://localhost:8000/api/items/1/matching_recommendation/"
 
 docs:
 	@echo "API 문서 URL들:"

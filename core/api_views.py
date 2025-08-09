@@ -469,6 +469,50 @@ class ItemViewSet(viewsets.ModelViewSet):
         item.save()
         serializer = self.get_serializer(item)
         return Response(serializer.data)
+    
+    @extend_schema(
+        description="아이템에 대한 매칭되는 추천이 있는지 확인합니다.",
+        responses={200: None},  # 동적 응답 스키마
+        tags=["콘텐츠 관리"]
+    )
+    @action(detail=True, methods=['get'], url_path='matching_recommendation')
+    def matching_recommendation(self, request, pk=None):
+        """아이템에 대한 매칭되는 추천 확인"""
+        item = self.get_object()
+        
+        # 해당 아이템에 대한 추천 찾기
+        recommendation = Recommendation.objects.filter(
+            item_id=item.id,
+            is_active=True
+        ).first()
+        
+        if recommendation:
+            # 추천이 있는 경우
+            response_data = {
+                'item_id': item.id,
+                'item_title': item.title,
+                'has_recommendation': True,
+                'recommendation': {
+                    'id': recommendation.id,
+                    'project_id': recommendation.project_id,
+                    'project_material_id': recommendation.project_material_id,
+                    'is_active': recommendation.is_active,
+                    'created_at': recommendation.created_at,
+                    'updated_at': recommendation.updated_at
+                },
+                'message': f"아이템 '{item.title}'에 대한 활성 추천이 있습니다."
+            }
+        else:
+            # 추천이 없는 경우
+            response_data = {
+                'item_id': item.id,
+                'item_title': item.title,
+                'has_recommendation': False,
+                'recommendation': None,
+                'message': f"아이템 '{item.title}'에 대한 활성 추천이 없습니다."
+            }
+        
+        return Response(response_data)
 
 
 @extend_schema_view(
@@ -534,3 +578,47 @@ class RecommendationViewSet(viewsets.ModelViewSet):
         response_data = serializer.data
         response_data['message'] = message
         return Response(response_data)
+    
+    @extend_schema(
+        description="특정 아이템에 대한 추천을 찾습니다.",
+        parameters=[
+            OpenApiParameter(name='item_id', type=int, description='아이템 ID', required=True)
+        ],
+        responses={200: RecommendationSerializer(many=True)},
+        tags=["추천 관리"]
+    )
+    @action(detail=False, methods=['get'], url_path='by_item')
+    def by_item(self, request):
+        """특정 아이템에 대한 추천 찾기"""
+        item_id = request.query_params.get('item_id')
+        
+        if not item_id:
+            return Response({
+                'error': 'item_id 파라미터가 필요합니다.'
+            }, status=400)
+        
+        try:
+            item_id = int(item_id)
+        except ValueError:
+            return Response({
+                'error': 'item_id는 유효한 정수여야 합니다.'
+            }, status=400)
+        
+        # 해당 아이템에 대한 모든 추천 찾기 (활성/비활성 모두)
+        recommendations = Recommendation.objects.filter(item_id=item_id)
+        
+        if recommendations.exists():
+            serializer = self.get_serializer(recommendations, many=True)
+            return Response({
+                'item_id': item_id,
+                'recommendations_count': recommendations.count(),
+                'recommendations': serializer.data,
+                'message': f"아이템 ID {item_id}에 대한 추천 {recommendations.count()}개를 찾았습니다."
+            })
+        else:
+            return Response({
+                'item_id': item_id,
+                'recommendations_count': 0,
+                'recommendations': [],
+                'message': f"아이템 ID {item_id}에 대한 추천이 없습니다."
+            })
