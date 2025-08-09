@@ -5,3 +5,4 @@ ruff
 pytest
 djangorestframework
 drf-spectacular
+django-cors-headers
