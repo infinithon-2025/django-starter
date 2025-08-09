@@ -41,6 +41,10 @@ api-test:
 	@echo "외부 데이터 매칭 (코드): curl http://localhost:8000/api/projects/1/external_matches_by_code/"
 	@echo "외부 데이터로 아이템 생성 (키워드): curl -X POST http://localhost:8000/api/projects/1/create_items_from_external_matches_by_keyword/"
 	@echo "외부 데이터로 아이템 생성 (코드): curl -X POST http://localhost:8000/api/projects/1/create_items_from_external_matches_by_code/"
+	@echo ""
+	@echo "추천 관리 API:"
+	@echo "추천 목록: curl http://localhost:8000/api/recommendations/"
+	@echo "추천 토글 (아이템 삭제 포함): curl -X PATCH http://localhost:8000/api/recommendations/1/toggle_active/"
 
 docs:
 	@echo "API 문서 URL들:"

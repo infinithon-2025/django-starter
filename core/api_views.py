@@ -502,15 +502,35 @@ class RecommendationViewSet(viewsets.ModelViewSet):
         return queryset
     
     @extend_schema(
-        description="추천의 활성 상태를 토글합니다.",
+        description="추천의 활성 상태를 토글합니다. False로 변경 시 연관된 아이템이 삭제됩니다.",
         responses={200: RecommendationSerializer},
         tags=["추천 관리"]
     )
     @action(detail=True, methods=['patch'])
     def toggle_active(self, request, pk=None):
-        """추천의 활성 상태를 토글"""
+        """추천의 활성 상태를 토글하고, False로 변경 시 연관된 아이템 삭제"""
         recommendation = self.get_object()
+        was_active = recommendation.is_active
         recommendation.is_active = not recommendation.is_active
         recommendation.save()
+        
+        # False로 토글된 경우 연관된 아이템 삭제
+        if was_active and not recommendation.is_active:
+            try:
+                # 연관된 아이템 찾기 및 삭제
+                associated_item = Item.objects.filter(id=recommendation.item_id).first()
+                if associated_item:
+                    item_id = associated_item.id
+                    associated_item.delete()
+                    message = f"추천이 비활성화되었고, 연관된 아이템(ID: {item_id})이 삭제되었습니다."
+                else:
+                    message = "추천이 비활성화되었습니다. (연관된 아이템을 찾을 수 없습니다.)"
+            except Exception as e:
+                message = f"추천이 비활성화되었습니다. (아이템 삭제 중 오류: {str(e)})"
+        else:
+            message = f"추천이 {'활성화' if recommendation.is_active else '비활성화'}되었습니다."
+        
         serializer = self.get_serializer(recommendation)
-        return Response(serializer.data)
+        response_data = serializer.data
+        response_data['message'] = message
+        return Response(response_data)
