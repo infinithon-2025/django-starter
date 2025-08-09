@@ -12,46 +12,122 @@ cd django-starter
 
 ### 2. Python 환경 설정
 ```bash
-# Python 3.12.5 설치 (pyenv 사용)
+# Homebrew 설치 (Mac에서 처음 사용하는 경우)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# pyenv 설치 (Mac에서 처음 사용하는 경우)
+brew install pyenv
+
+# pyenv 환경 변수 설정
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+source ~/.zshrc
+
+# Python 3.12.5 설치
 pyenv install 3.12.5
 pyenv local 3.12.5
 
 # 가상환경 생성 및 활성화
-python -m venv .venv
-source .venv/bin/activate  # macOS/Linux
-# 또는
-.venv\Scripts\activate  # Windows
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 ### 3. 의존성 설치
 ```bash
+# pip 업그레이드
+pip install --upgrade pip
+
+# Django 및 기타 의존성 설치
+pip install django
+pip install djangorestframework
+pip install drf-spectacular
+pip install django-environ
+
+# 또는 requirements 파일로 한 번에 설치
 pip install -r requirements-dev.txt
 ```
 
 ### 4. 환경 변수 설정
 ```bash
-# .env 파일 생성 (필요시)
-cp .env.example .env
-# 또는 직접 생성
-echo "DJANGO_SECRET_KEY=your-secret-key-here" > .env
-echo "DJANGO_DEBUG=True" >> .env
-echo "DJANGO_ALLOWED_HOSTS=*" >> .env
+# .env 파일 직접 생성 (Mac에서 권장)
+cat > .env << EOF
+DJANGO_SECRET_KEY=your-secret-key-change-me-in-production
+DJANGO_DEBUG=True
+DJANGO_ALLOWED_HOSTS=*
+EOF
 ```
 
 ### 5. 데이터베이스 설정
 ```bash
 # 마이그레이션 실행
-python manage.py migrate
+python3 manage.py migrate
 
 # 슈퍼유저 생성 (선택사항)
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 ```
 
 ### 6. 개발 서버 실행
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 # 또는
 make dev
+```
+
+## 📋 전체 설치 과정 요약
+
+### 필수 도구 설치
+1. **Homebrew**: Mac 패키지 관리자
+2. **pyenv**: Python 버전 관리자
+3. **Python 3.12.5**: 프로젝트에서 사용하는 Python 버전
+
+### 프로젝트 설정
+1. **저장소 클론**: GitHub에서 코드 다운로드
+2. **가상환경 생성**: 프로젝트별 Python 환경 분리
+3. **의존성 설치**: Django 및 기타 라이브러리 설치
+4. **환경 변수 설정**: Django 설정 파일 생성
+5. **데이터베이스 설정**: 마이그레이션 및 슈퍼유저 생성
+6. **서버 실행**: 개발 서버 시작
+
+### 설치 확인
+```bash
+# Python 버전 확인
+python3 --version  # Python 3.12.5
+
+# Django 버전 확인
+python3 -m django --version
+
+# 가상환경 활성화 확인
+which python3  # .venv/bin/python3이어야 함
+
+# 서버 접속 확인
+curl http://localhost:8000/  # {"status":"ok"}
+```
+
+## 📦 주요 의존성 목록
+
+### 핵심 라이브러리
+- **Django 5.2.5**: 웹 프레임워크
+- **Django REST Framework 3.16.1**: REST API 프레임워크
+- **drf-spectacular**: API 문서 자동 생성
+- **django-environ**: 환경 변수 관리
+
+### 개발 도구
+- **Black**: 코드 포맷터
+- **Ruff**: 코드 린터
+- **pytest**: 테스트 프레임워크
+- **pip-tools**: 의존성 관리
+
+### 전체 의존성 설치
+```bash
+# 개발 의존성 (권장)
+pip install -r requirements-dev.txt
+
+# 또는 개별 설치
+pip install django==5.2.5
+pip install djangorestframework==3.16.1
+pip install drf-spectacular
+pip install django-environ==0.12.0
 ```
 
 ## 📋 프로젝트 구조
@@ -91,7 +167,7 @@ django-starter/
 
 ### Django Admin
 - **관리자 페이지**: http://localhost:8000/admin/
-- **슈퍼유저 생성**: `python manage.py createsuperuser`
+- **슈퍼유저 생성**: `python3 manage.py createsuperuser`
 
 ## 🛠️ 개발 도구
 
@@ -143,32 +219,58 @@ DATABASE_URL=sqlite:///db.sqlite3  # 기본값
 
 ## 🐛 문제 해결
 
+### Mac 전용 문제들
+
+1. **pyenv 명령어를 찾을 수 없는 경우**
+   ```bash
+   # ~/.zshrc 또는 ~/.bash_profile에 추가
+   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+   echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+   echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+   source ~/.zshrc
+   ```
+
+2. **Homebrew 권한 문제**
+   ```bash
+   # Homebrew 권한 수정
+   sudo chown -R $(whoami) /opt/homebrew
+   ```
+
+3. **포트 8000이 이미 사용 중인 경우**
+   ```bash
+   # 사용 중인 프로세스 확인
+   lsof -ti:8000
+   # 프로세스 종료
+   kill -9 $(lsof -ti:8000)
+   ```
+
 ### 일반적인 문제들
 
 1. **포트 충돌**
    ```bash
    # 다른 포트 사용
-   python manage.py runserver 8001
+   python3 manage.py runserver 8001
    ```
 
 2. **의존성 문제**
    ```bash
    # 가상환경 재생성
    rm -rf .venv
-   python -m venv .venv
+   python3 -m venv .venv
    source .venv/bin/activate
+   pip install --upgrade pip
    pip install -r requirements-dev.txt
    ```
 
 3. **마이그레이션 문제**
    ```bash
    # 마이그레이션 초기화
-   python manage.py migrate --fake-initial
+   python3 manage.py migrate --fake-initial
    ```
 
 4. **정적 파일 문제**
    ```bash
-   python manage.py collectstatic
+   python3 manage.py collectstatic
    ```
 
 ## 📝 개발 가이드
