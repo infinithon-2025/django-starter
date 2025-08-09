@@ -98,5 +98,15 @@
     "link": "https://sg-dev-community.slack.com/archives/C0123456791/p1234567890123458",
     "created_at": "2025-08-09T11:30:00Z",
     "updated_at": "2025-08-09T14:20:00Z"
+  },
+  {
+    "material_type": "slack",
+    "material_link": "https://sg-dev-community.slack.com",
+    "author_email": "user@example.com",
+    "title": "",
+    "body": "지금 브리찌 개발 상황이 어떻게 되시나요?",
+    "link": "https://sg-dev-community.slack.com/archives/C0123456791/p1234567890123459",
+    "created_at": "2025-08-09T11:30:00Z",
+    "updated_at": "2025-08-09T14:20:00Z"
   }
 ]
