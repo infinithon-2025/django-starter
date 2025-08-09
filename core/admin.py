@@ -72,8 +72,8 @@ class SummaryAdmin(admin.ModelAdmin):
 
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
-    list_display = ('title', 'channel_name', 'project', 'project_material', 'is_fixed', 'created_at')
-    list_filter = ('is_fixed', 'created_at', 'updated_at', 'project_material__material_type')
+    list_display = ('title', 'channel_name', 'project', 'project_material', 'is_fixed', 'is_active', 'created_at')
+    list_filter = ('is_fixed', 'is_active', 'created_at', 'updated_at', 'project_material__material_type')
     search_fields = ('title', 'channel_name', 'body', 'project__project_name', 'project__project_code')
     readonly_fields = ('created_at', 'updated_at', 'origin_data_created_at', 'origin_data_updated_at')
     fieldsets = (
@@ -81,7 +81,7 @@ class ItemAdmin(admin.ModelAdmin):
             'fields': ('project', 'project_material', 'channel_name', 'title', 'body', 'link')
         }),
         ('상태 정보', {
-            'fields': ('is_fixed',)
+            'fields': ('is_fixed', 'is_active')
         }),
         ('시간 정보', {
             'fields': ('created_at', 'updated_at', 'origin_data_created_at', 'origin_data_updated_at'),

@@ -72,6 +72,7 @@ class Item(models.Model):
     body = models.TextField()
     link = models.URLField()
     is_fixed = models.BooleanField(default=False)
+    is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     origin_data_created_at = models.DateTimeField(auto_now=True)
