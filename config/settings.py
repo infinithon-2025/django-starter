@@ -112,6 +112,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_spectacular',
     'corsheaders',
+    'markdownx',
 ]
 
 # REST Framework 설정

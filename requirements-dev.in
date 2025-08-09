@@ -6,3 +6,4 @@ pytest
 djangorestframework
 drf-spectacular
 django-cors-headers
+django-markdownx
